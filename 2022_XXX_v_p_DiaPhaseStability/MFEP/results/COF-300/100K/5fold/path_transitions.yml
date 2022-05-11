@@ -1,0 +1,12 @@
+? !!python/tuple
+- SQ
+- vrect
+: !!python/tuple
+- 243.08622495104822
+- 33.478672951048225
+? !!python/tuple
+- hrect
+- vrect
+: !!python/tuple
+- 33.478672951048225
+- 33.478672951048225

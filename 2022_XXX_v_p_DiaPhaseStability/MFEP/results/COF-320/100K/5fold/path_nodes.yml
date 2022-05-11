@@ -1,0 +1,18 @@
+SQ:
+  cv1: 20.875
+  cv2: 21.125
+  energy: 0.219997
+  grid_index: 8384
+  node_index: 6
+hrect:
+  cv1: 5.625
+  cv2: 11.375
+  energy: 68.91505599999999
+  grid_index: 2245
+  node_index: 0
+vrect:
+  cv1: 11.375
+  cv2: 5.625
+  energy: 68.91505599999999
+  grid_index: 4522
+  node_index: 5

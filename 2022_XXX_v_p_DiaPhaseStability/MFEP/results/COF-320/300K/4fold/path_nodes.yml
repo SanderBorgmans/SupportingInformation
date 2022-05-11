@@ -1,0 +1,12 @@
+hrect:
+  cv1: 6.125
+  cv2: 9.125
+  energy: 112.345275
+  grid_index: 2436
+  node_index: 8
+vrect:
+  cv1: 9.125
+  cv2: 6.125
+  energy: 112.345275
+  grid_index: 3624
+  node_index: 14
