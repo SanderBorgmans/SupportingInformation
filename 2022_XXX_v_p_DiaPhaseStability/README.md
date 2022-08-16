@@ -2,7 +2,7 @@
 
 ﻿This file relates to the research done in the following paper:
 
-S. Borgmans, S. M. J. Rogge, J. S. De Vos, V. Van Speybroeck, _xxxx_, 2022, XX, XX, XXXX
+S. Borgmans, S. M. J. Rogge, J. S. De Vos, P. Van Der Voort, V. Van Speybroeck, _xxxx_, 2022, XX, XX, XXXX
 https://doi.org/
 
 This file is part of the longterm storage (publically available under the [CC BY-SA license](https://creativecommons.org/licenses/by-sa/4.0/)) of the input files relevant in this work. In the remainder of this file, we outline in detail the workflow used in this work including references to the relevant input and output files. In case the provided workflow would appear incomprehensible, and lacking to reproduce our results, please contact Sander.Borgmans@ugent.be
