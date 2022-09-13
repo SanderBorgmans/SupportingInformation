@@ -43,46 +43,64 @@ Since the script files are identical for each material, they are consistently st
 
 
 	data/longterm/
+	
 		FES_sampling/
-            scripts/
-            results/
-                COF-300/
-                    50K/
-                        2fold/
-                        3fold/
-                        ...
-                    100K/
-                        ...
-                    ...
-                COF-320/
-                    ...
-                        ...
-                NPN-1/
-                    ...
-                        ...
-                NPN-3/
-                    ...
-                        ...
 			input/
-                COF-300/
-                    ...
-                        ...
-                COF-320/
-                    ...
-                        ...
-                NPN-1/
-                    ...
-                        ...
-                NPN-3/
-                    ...
-                        ...
+				COF-300/
+					1fold/
+					2fold/
+					...
+				COF-320/
+					...
+				NPN-1/
+					...
+				NPN-3/
+					...
+			scripts/
+		    results/
+				COF-300/
+					50K/
+						2fold/
+						3fold/
+						...
+					100K/
+						...
+					...
+				COF-320/
+					...
+						...
+				NPN-1/
+					...
+						...
+				NPN-3/
+					...
+						...
+					
         FF_development/
-
+			abinitio_input/
+				scripts/
+				... # folder per building block
+			cluster_forcefield/
+				scripts/
+				... # folder per building block
+			rotational_barriers/
+			
 		initial_structures/
-            COF-300/
-            COF-320/
-            NPN-1/
-            NPN-3/
+			input/
+				sbus/
+					... # folder per building block
+				topologies/
+				
+			output/
+				COF-300/
+					... # folder per degree of interpenetration
+				COF-320/
+					... # folder per degree of interpenetration
+				NPN-1/
+					... # folder per degree of interpenetration
+				NPN-3/
+					... # folder per degree of interpenetration
+			scripts/
 
 		MFEP/
             scripts/
