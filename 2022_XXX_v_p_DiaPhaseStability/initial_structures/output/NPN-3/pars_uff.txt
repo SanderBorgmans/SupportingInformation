@@ -1,0 +1,292 @@
+# Bond stretch
+# ============
+#
+# Mathematical form:
+# E_BONDHARM = 0.5*K*(r - R0)**2
+#
+
+BONDHARM:UNIT K kcalmol/A**2
+BONDHARM:UNIT R0 A
+
+#---------------------------------------------------------------------------------------------
+# KEY         label0                label1                 K                 R0               
+#---------------------------------------------------------------------------------------------
+BONDHARM:PARS H_C_HC2_TNA           C_H2C2_TNA             6.6213877753e+02  1.1094007949e+00 
+BONDHARM:PARS C_HC2_HC2N_0_TNA      C_C2N_0_TNA            9.2531010822e+02  1.3792564054e+00 
+BONDHARM:PARS C_HC2_HC3_TNA         C_HC2_HC2N_0_TNA       9.2531010822e+02  1.3792564054e+00 
+BONDHARM:PARS H_C_C2_1_TNA          C_HC2_HC3_TNA          7.1488076209e+02  1.0814180403e+00 
+BONDHARM:PARS C_C3_TNA              C_HC2_HC3_TNA          9.2531010822e+02  1.3792564054e+00 
+BONDHARM:PARS O_0_TNA               N_0_TNA                2.2908105287e+03  1.1926164002e+00 
+BONDHARM:PARS H_C_C2_0_TNA          C_HC2_HC2N_0_TNA       7.1488076209e+02  1.0814180403e+00 
+BONDHARM:PARS C_H2C2_TNA            C_C4_TNA               6.9959179871e+02  1.5140000000e+00 
+BONDHARM:PARS C_C4_TNA              C_C3_TNA               7.3988786905e+02  1.4860000000e+00 
+BONDHARM:PARS N_0_TNA               C_C2N_0_TNA            1.1566807646e+03  1.4082486608e+00 
+BONDHARM:PARS N_0_TNA               N_0_TNA                2.2352757900e+03  1.2435117299e+00 
+
+
+
+# Angle bend
+# ==========
+#
+# Mathematical form:
+# E_BENDCHARM = 0.5*K*(cos(phi) - COS0)**2
+#
+
+BENDCHARM:UNIT K kcalmol
+BENDCHARM:UNIT COS0 1
+
+#--------------------------------------------------------------------------------------------------------------------
+# KEY          label0                label1                label2                 K                 COS0             
+#--------------------------------------------------------------------------------------------------------------------
+BENDCHARM:PARS H_C_HC2_TNA           C_H2C2_TNA            C_C4_TNA               1.3198152975e+02 -3.3331324757e-01 
+BENDCHARM:PARS C_H2C2_TNA            C_C4_TNA              C_C3_TNA               2.4775494075e+02 -3.3331324757e-01 
+BENDCHARM:PARS H_C_HC2_TNA           C_H2C2_TNA            H_C_HC2_TNA            8.4934831918e+01 -3.3331324757e-01 
+BENDCHARM:PARS C_H2C2_TNA            C_C4_TNA              C_H2C2_TNA             2.4098466816e+02 -3.3331324757e-01 
+BENDCHARM:PARS C_C4_TNA              C_H2C2_TNA            C_C4_TNA               2.4098466816e+02 -3.3331324757e-01 
+
+
+
+# Angle bend
+# ==========
+#
+# Mathematical form:
+# E_BENDCOS = 0.5*A*(1-cos(M*(phi - PHI0)))
+#
+
+BENDCOS:UNIT A kcalmol
+BENDCOS:UNIT PHI0 rad
+
+#---------------------------------------------------------------------------------------------------------------------
+# KEY        label0                label1                label2                M   A                 PHI0             
+#---------------------------------------------------------------------------------------------------------------------
+BENDCOS:PARS O_0_TNA               N_0_TNA               C_C2N_0_TNA           3   8.5581841423e+01  0.0000000000e+00 
+BENDCOS:PARS N_0_TNA               C_C2N_0_TNA           C_HC2_HC2N_0_TNA      3   6.3774797421e+01  0.0000000000e+00 
+BENDCOS:PARS H_C_C2_1_TNA          C_HC2_HC3_TNA         C_HC2_HC2N_0_TNA      3   2.5461784914e+01  0.0000000000e+00 
+BENDCOS:PARS C_HC2_HC3_TNA         C_HC2_HC2N_0_TNA      C_C2N_0_TNA           3   4.9465559266e+01  0.0000000000e+00 
+BENDCOS:PARS H_C_C2_0_TNA          C_HC2_HC2N_0_TNA      C_HC2_HC3_TNA         3   2.5461784914e+01  0.0000000000e+00 
+BENDCOS:PARS C_HC2_HC3_TNA         C_C3_TNA              C_HC2_HC3_TNA         3   4.9465559266e+01  0.0000000000e+00 
+BENDCOS:PARS H_C_C2_1_TNA          C_HC2_HC3_TNA         C_C3_TNA              3   2.5461784914e+01  0.0000000000e+00 
+BENDCOS:PARS C_C4_TNA              C_C3_TNA              C_HC2_HC3_TNA         3   4.4060955021e+01  0.0000000000e+00 
+BENDCOS:PARS C_C3_TNA              C_HC2_HC3_TNA         C_HC2_HC2N_0_TNA      3   4.9465559266e+01  0.0000000000e+00 
+BENDCOS:PARS C_HC2_HC2N_0_TNA      C_C2N_0_TNA           C_HC2_HC2N_0_TNA      3   4.9465559266e+01  0.0000000000e+00 
+BENDCOS:PARS H_C_C2_0_TNA          C_HC2_HC2N_0_TNA      C_C2N_0_TNA           3   2.5461784914e+01  0.0000000000e+00 
+BENDCOS:PARS N_0_TNA               N_0_TNA               C_C2N_0_TNA           3   8.9791784999e+01  0.0000000000e+00 
+BENDCOS:PARS O_0_TNA               N_0_TNA               N_0_TNA               3   1.4015504321e+02  0.0000000000e+00 
+
+
+
+# Torsion
+# =======
+#
+# Mathematical form:
+# E_TORSION = 0.5*A*(1-cos(M*(phi - PHI0)))
+#
+
+TORSION:UNIT A kcalmol
+TORSION:UNIT PHI0 rad
+
+#-------------------------------------------------------------------------------------------------------------------------------------------
+# KEY        label0                label1                label2                label3                M   A                 PHI0             
+#-------------------------------------------------------------------------------------------------------------------------------------------
+TORSION:PARS C_C3_TNA              C_HC2_HC3_TNA         C_HC2_HC2N_0_TNA      C_C2N_0_TNA           2   6.7371103797e+00  3.1415926536e+00 
+TORSION:PARS H_C_C2_0_TNA          C_HC2_HC2N_0_TNA      C_C2N_0_TNA           N_0_TNA               2   6.7371103797e+00  3.1415926536e+00 
+TORSION:PARS H_C_HC2_TNA           C_H2C2_TNA            C_C4_TNA              C_H2C2_TNA            3   2.3544444444e-01  3.1415926536e+00 
+TORSION:PARS C_HC2_HC3_TNA         C_C3_TNA              C_HC2_HC3_TNA         C_HC2_HC2N_0_TNA      2   6.7371103797e+00  3.1415926536e+00 
+TORSION:PARS O_0_TNA               N_0_TNA               C_C2N_0_TNA           C_HC2_HC2N_0_TNA      2   2.5000000000e+00  3.1415926536e+00 
+TORSION:PARS C_HC2_HC3_TNA         C_C3_TNA              C_HC2_HC3_TNA         H_C_C2_1_TNA          2   6.7371103797e+00  3.1415926536e+00 
+TORSION:PARS C_C3_TNA              C_HC2_HC3_TNA         C_HC2_HC2N_0_TNA      H_C_C2_0_TNA          2   6.7371103797e+00  3.1415926536e+00 
+TORSION:PARS C_C4_TNA              C_C3_TNA              C_HC2_HC3_TNA         C_HC2_HC2N_0_TNA      2   6.7371103797e+00  3.1415926536e+00 
+TORSION:PARS C_C4_TNA              C_H2C2_TNA            C_C4_TNA              C_H2C2_TNA            3   2.3544444444e-01  3.1415926536e+00 
+TORSION:PARS C_C4_TNA              C_H2C2_TNA            C_C4_TNA              C_C3_TNA              3   2.3544444444e-01  3.1415926536e+00 
+TORSION:PARS H_C_C2_1_TNA          C_HC2_HC3_TNA         C_HC2_HC2N_0_TNA      C_C2N_0_TNA           2   6.7371103797e+00  3.1415926536e+00 
+TORSION:PARS H_C_C2_0_TNA          C_HC2_HC2N_0_TNA      C_C2N_0_TNA           C_HC2_HC2N_0_TNA      2   6.7371103797e+00  3.1415926536e+00 
+TORSION:PARS C_HC2_HC3_TNA         C_HC2_HC2N_0_TNA      C_C2N_0_TNA           N_0_TNA               2   6.7371103797e+00  3.1415926536e+00 
+TORSION:PARS H_C_HC2_TNA           C_H2C2_TNA            C_C4_TNA              C_C3_TNA              3   2.3544444444e-01  3.1415926536e+00 
+TORSION:PARS C_C4_TNA              C_C3_TNA              C_HC2_HC3_TNA         H_C_C2_1_TNA          2   6.7371103797e+00  3.1415926536e+00 
+TORSION:PARS H_C_C2_1_TNA          C_HC2_HC3_TNA         C_HC2_HC2N_0_TNA      H_C_C2_0_TNA          2   6.7371103797e+00  3.1415926536e+00 
+TORSION:PARS C_H2C2_TNA            C_C4_TNA              C_C3_TNA              C_HC2_HC3_TNA         3   0.0000000000e+00  3.1415926536e+00 
+TORSION:PARS C_HC2_HC3_TNA         C_HC2_HC2N_0_TNA      C_C2N_0_TNA           C_HC2_HC2N_0_TNA      2   6.7371103797e+00  3.1415926536e+00 
+TORSION:PARS N_0_TNA               N_0_TNA               C_C2N_0_TNA           C_HC2_HC2N_0_TNA      2   2.5000000000e+00  3.1415926536e+00 
+TORSION:PARS C_C2N_0_TNA           N_0_TNA               N_0_TNA               C_C2N_0_TNA           2   9.7433880369e+00  3.1415926536e+00 
+TORSION:PARS O_0_TNA               N_0_TNA               N_0_TNA               O_0_TNA               2   9.7433880369e+00  3.1415926536e+00 
+TORSION:PARS C_C2N_0_TNA           N_0_TNA               N_0_TNA               O_0_TNA               2   9.7433880369e+00  3.1415926536e+00 
+
+
+
+# Inversion
+# =========
+#
+# Mathematical form:
+# E_OOPCOS = 0.5*A*(1 - cos(phi))
+#
+
+OOPCOS:UNIT A kcalmol
+
+#---------------------------------------------------------------------------------------------------------------------
+# KEY       label0                label1                label2                label3                 A                
+#---------------------------------------------------------------------------------------------------------------------
+OOPCOS:PARS C_HC2_HC3_TNA         H_C_C2_0_TNA          C_C2N_0_TNA           C_HC2_HC2N_0_TNA       2.0000000000e+00 
+OOPCOS:PARS C_C2N_0_TNA           C_HC2_HC3_TNA         H_C_C2_0_TNA          C_HC2_HC2N_0_TNA       2.0000000000e+00 
+OOPCOS:PARS C_C3_TNA              C_HC2_HC2N_0_TNA      H_C_C2_1_TNA          C_HC2_HC3_TNA          2.0000000000e+00 
+OOPCOS:PARS N_0_TNA               C_HC2_HC2N_0_TNA      C_HC2_HC2N_0_TNA      C_C2N_0_TNA            2.0000000000e+00 
+OOPCOS:PARS H_C_C2_1_TNA          C_C3_TNA              C_HC2_HC2N_0_TNA      C_HC2_HC3_TNA          2.0000000000e+00 
+OOPCOS:PARS C_HC2_HC2N_0_TNA      C_HC2_HC2N_0_TNA      N_0_TNA               C_C2N_0_TNA            2.0000000000e+00 
+OOPCOS:PARS C_HC2_HC3_TNA         C_HC2_HC3_TNA         C_C4_TNA              C_C3_TNA               2.0000000000e+00 
+OOPCOS:PARS H_C_C2_0_TNA          C_C2N_0_TNA           C_HC2_HC3_TNA         C_HC2_HC2N_0_TNA       2.0000000000e+00 
+OOPCOS:PARS C_HC2_HC2N_0_TNA      H_C_C2_1_TNA          C_C3_TNA              C_HC2_HC3_TNA          2.0000000000e+00 
+OOPCOS:PARS C_C4_TNA              C_HC2_HC3_TNA         C_HC2_HC3_TNA         C_C3_TNA               2.0000000000e+00 
+OOPCOS:PARS O_0_TNA               N_0_TNA               C_C2N_0_TNA           N_0_TNA                2.0000000000e+00 
+OOPCOS:PARS N_0_TNA               C_C2N_0_TNA           O_0_TNA               N_0_TNA                2.0000000000e+00 
+OOPCOS:PARS C_C2N_0_TNA           O_0_TNA               N_0_TNA               N_0_TNA                2.0000000000e+00 
+OOPCOS:PARS C_C2N_0_TNA           N_0_TNA               O_0_TNA               N_0_TNA                2.0000000000e+00 
+OOPCOS:PARS N_0_TNA               O_0_TNA               C_C2N_0_TNA           N_0_TNA                2.0000000000e+00 
+OOPCOS:PARS O_0_TNA               C_C2N_0_TNA           N_0_TNA               N_0_TNA                2.0000000000e+00 
+
+
+
+# Electrostatic interactions
+# ==========================
+#
+# Mathematical form:
+# E_FIXQ = q_i*q_j/r*erf(r/R)
+#
+#       with q_i = q_0i + sum(p_ij, j bonded to i)
+# 
+# The total atomic point charge is given by the sum of the 
+# pre-charge (q_0i) and the bond charge increments (p_ij).
+# The error function is included to allow the charge to be 
+# distributed according to a Gaussian distribution. By
+# putting the charge radius R to zero, the classic point
+# charge expression is obtained.
+#
+
+FIXQ:UNIT Q0 e
+FIXQ:UNIT P e
+FIXQ:UNIT R angstrom
+
+FIXQ:SCALE 1 1.0
+FIXQ:SCALE 2 1.0
+FIXQ:SCALE 3 1.0
+
+FIXQ:DIELECTRIC 1.0
+
+# Pre-charges (Q0) and charge radii (R)
+#-------------------------------------------------------------------
+# KEY     label0                 Q0                R                
+#-------------------------------------------------------------------
+FIXQ:ATOM C_C2N_0_TNA            0.0000000000e+00  1.1703000000e+00 
+FIXQ:ATOM C_HC2_HC2N_0_TNA       0.0000000000e+00  1.1703000000e+00 
+FIXQ:ATOM C_HC2_HC3_TNA          0.0000000000e+00  1.1703000000e+00 
+FIXQ:ATOM C_C3_TNA               0.0000000000e+00  1.1703000000e+00 
+FIXQ:ATOM H_C_C2_0_TNA           0.0000000000e+00  7.3080000000e-01 
+FIXQ:ATOM H_C_C2_1_TNA           0.0000000000e+00  7.3080000000e-01 
+FIXQ:ATOM N_0_TNA                0.0000000000e+00  1.1048000000e+00 
+FIXQ:ATOM O_0_TNA                0.0000000000e+00  1.1325000000e+00 
+FIXQ:ATOM C_C4_TNA               0.0000000000e+00  1.1703000000e+00 
+FIXQ:ATOM C_H2C2_TNA             0.0000000000e+00  1.1703000000e+00 
+FIXQ:ATOM H_C_HC2_TNA            0.0000000000e+00  7.3080000000e-01 
+
+# Bond charge increments (P)
+#-----------------------------------------------------------------------
+# KEY     label0                label1                 P                
+#-----------------------------------------------------------------------
+FIXQ:BOND C_C2N_0_TNA           C_HC2_HC2N_0_TNA      -3.6459229700e-02 
+FIXQ:BOND C_HC2_HC2N_0_TNA      C_HC2_HC3_TNA         -2.4830352400e-02 
+FIXQ:BOND C_C3_TNA              C_HC2_HC3_TNA          5.9047009600e-02 
+FIXQ:BOND C_HC2_HC2N_0_TNA      H_C_C2_0_TNA          -1.7201008150e-01 
+FIXQ:BOND C_HC2_HC3_TNA         H_C_C2_1_TNA          -1.4076158910e-01 
+FIXQ:BOND C_C2N_0_TNA           N_0_TNA                1.6700644430e-01 
+FIXQ:BOND N_0_TNA               O_0_TNA                4.7120930650e-01 
+FIXQ:BOND C_C3_TNA              C_C4_TNA              -4.3282004300e-02 
+FIXQ:BOND C_C4_TNA              C_H2C2_TNA             7.1251334000e-03 
+FIXQ:BOND C_H2C2_TNA            H_C_HC2_TNA           -1.1501986710e-01 
+FIXQ:BOND N_0_TNA               N_0_TNA                0.0000000000e+00 
+
+
+
+# Lennard-Jones potential
+# =======================
+#
+# Mathematical form:
+# E_LJCROSS = 4*epsilon*((sigma/r)**12 - (sigma/r)**6)
+#
+
+LJCROSS:UNIT SIGMA A
+LJCROSS:UNIT EPSILON kcalmol
+
+LJCROSS:SCALE 1 0.0
+LJCROSS:SCALE 2 0.0
+LJCROSS:SCALE 3 1.0
+
+#--------------------------------------------------------------------------------------------
+# KEY        label0                label1                 SIGMA             EPSILON          
+#--------------------------------------------------------------------------------------------
+LJCROSS:PARS C_HC2_HC3_TNA         C_HC2_HC3_TNA          3.4308509636e+00  1.0500000000e-01 
+LJCROSS:PARS N_0_TNA               O_0_TNA                3.1886209775e+00  6.4342831769e-02 
+LJCROSS:PARS C_HC2_HC2N_0_TNA      C_C3_TNA               3.4308509636e+00  1.0500000000e-01 
+LJCROSS:PARS C_C2N_0_TNA           C_C4_TNA               3.4308509636e+00  1.0500000000e-01 
+LJCROSS:PARS H_C_C2_1_TNA          N_0_TNA                2.8954564697e+00  5.5099909256e-02 
+LJCROSS:PARS C_HC2_HC2N_0_TNA      H_C_C2_0_TNA           2.9700465542e+00  6.7970581872e-02 
+LJCROSS:PARS C_HC2_HC3_TNA         C_C3_TNA               3.4308509636e+00  1.0500000000e-01 
+LJCROSS:PARS H_C_C2_0_TNA          O_0_TNA                2.8314605794e+00  5.1380930315e-02 
+LJCROSS:PARS C_C3_TNA              C_C3_TNA               3.4308509636e+00  1.0500000000e-01 
+LJCROSS:PARS C_C3_TNA              H_C_C2_1_TNA           2.9700465542e+00  6.7970581872e-02 
+LJCROSS:PARS O_0_TNA               C_C4_TNA               3.2707632962e+00  7.9372539332e-02 
+LJCROSS:PARS C_C3_TNA              C_H2C2_TNA             3.4308509636e+00  1.0500000000e-01 
+LJCROSS:PARS O_0_TNA               O_0_TNA                3.1181455135e+00  6.0000000000e-02 
+LJCROSS:PARS C_C2N_0_TNA           C_H2C2_TNA             3.4308509636e+00  1.0500000000e-01 
+LJCROSS:PARS C_HC2_HC3_TNA         C_H2C2_TNA             3.4308509636e+00  1.0500000000e-01 
+LJCROSS:PARS C_C2N_0_TNA           N_0_TNA                3.3446881851e+00  8.5117565755e-02 
+LJCROSS:PARS N_0_TNA               C_C4_TNA               3.3446881851e+00  8.5117565755e-02 
+LJCROSS:PARS H_C_C2_1_TNA          H_C_C2_1_TNA           2.5711337006e+00  4.4000000000e-02 
+LJCROSS:PARS H_C_C2_0_TNA          C_H2C2_TNA             2.9700465542e+00  6.7970581872e-02 
+LJCROSS:PARS C_H2C2_TNA            C_H2C2_TNA             3.4308509636e+00  1.0500000000e-01 
+LJCROSS:PARS C_HC2_HC3_TNA         H_C_HC2_TNA            2.9700465542e+00  6.7970581872e-02 
+LJCROSS:PARS C_C4_TNA              C_H2C2_TNA             3.4308509636e+00  1.0500000000e-01 
+LJCROSS:PARS C_C2N_0_TNA           C_HC2_HC2N_0_TNA       3.4308509636e+00  1.0500000000e-01 
+LJCROSS:PARS C_HC2_HC2N_0_TNA      H_C_HC2_TNA            2.9700465542e+00  6.7970581872e-02 
+LJCROSS:PARS C_C2N_0_TNA           O_0_TNA                3.2707632962e+00  7.9372539332e-02 
+LJCROSS:PARS C_C3_TNA              O_0_TNA                3.2707632962e+00  7.9372539332e-02 
+LJCROSS:PARS H_C_C2_0_TNA          H_C_C2_1_TNA           2.5711337006e+00  4.4000000000e-02 
+LJCROSS:PARS H_C_C2_1_TNA          H_C_HC2_TNA            2.5711337006e+00  4.4000000000e-02 
+LJCROSS:PARS C_C3_TNA              H_C_C2_0_TNA           2.9700465542e+00  6.7970581872e-02 
+LJCROSS:PARS H_C_C2_0_TNA          N_0_TNA                2.8954564697e+00  5.5099909256e-02 
+LJCROSS:PARS C_C4_TNA              H_C_HC2_TNA            2.9700465542e+00  6.7970581872e-02 
+LJCROSS:PARS C_HC2_HC3_TNA         H_C_C2_1_TNA           2.9700465542e+00  6.7970581872e-02 
+LJCROSS:PARS C_C3_TNA              C_C4_TNA               3.4308509636e+00  1.0500000000e-01 
+LJCROSS:PARS H_C_C2_1_TNA          C_H2C2_TNA             2.9700465542e+00  6.7970581872e-02 
+LJCROSS:PARS O_0_TNA               H_C_HC2_TNA            2.8314605794e+00  5.1380930315e-02 
+LJCROSS:PARS C_C2N_0_TNA           C_HC2_HC3_TNA          3.4308509636e+00  1.0500000000e-01 
+LJCROSS:PARS H_C_C2_0_TNA          H_C_HC2_TNA            2.5711337006e+00  4.4000000000e-02 
+LJCROSS:PARS H_C_C2_0_TNA          H_C_C2_0_TNA           2.5711337006e+00  4.4000000000e-02 
+LJCROSS:PARS C_HC2_HC2N_0_TNA      C_H2C2_TNA             3.4308509636e+00  1.0500000000e-01 
+LJCROSS:PARS C_HC2_HC2N_0_TNA      C_HC2_HC3_TNA          3.4308509636e+00  1.0500000000e-01 
+LJCROSS:PARS C_C2N_0_TNA           C_C2N_0_TNA            3.4308509636e+00  1.0500000000e-01 
+LJCROSS:PARS C_C2N_0_TNA           C_C3_TNA               3.4308509636e+00  1.0500000000e-01 
+LJCROSS:PARS N_0_TNA               N_0_TNA                3.2606893084e+00  6.9000000000e-02 
+LJCROSS:PARS C_HC2_HC3_TNA         N_0_TNA                3.3446881851e+00  8.5117565755e-02 
+LJCROSS:PARS H_C_C2_1_TNA          C_C4_TNA               2.9700465542e+00  6.7970581872e-02 
+LJCROSS:PARS C_HC2_HC2N_0_TNA      N_0_TNA                3.3446881851e+00  8.5117565755e-02 
+LJCROSS:PARS C_C3_TNA              H_C_HC2_TNA            2.9700465542e+00  6.7970581872e-02 
+LJCROSS:PARS O_0_TNA               C_H2C2_TNA             3.2707632962e+00  7.9372539332e-02 
+LJCROSS:PARS C_HC2_HC2N_0_TNA      O_0_TNA                3.2707632962e+00  7.9372539332e-02 
+LJCROSS:PARS C_HC2_HC3_TNA         H_C_C2_0_TNA           2.9700465542e+00  6.7970581872e-02 
+LJCROSS:PARS H_C_HC2_TNA           H_C_HC2_TNA            2.5711337006e+00  4.4000000000e-02 
+LJCROSS:PARS C_C2N_0_TNA           H_C_C2_0_TNA           2.9700465542e+00  6.7970581872e-02 
+LJCROSS:PARS N_0_TNA               H_C_HC2_TNA            2.8954564697e+00  5.5099909256e-02 
+LJCROSS:PARS N_0_TNA               C_H2C2_TNA             3.3446881851e+00  8.5117565755e-02 
+LJCROSS:PARS C_C2N_0_TNA           H_C_HC2_TNA            2.9700465542e+00  6.7970581872e-02 
+LJCROSS:PARS C_HC2_HC2N_0_TNA      C_HC2_HC2N_0_TNA       3.4308509636e+00  1.0500000000e-01 
+LJCROSS:PARS H_C_C2_0_TNA          C_C4_TNA               2.9700465542e+00  6.7970581872e-02 
+LJCROSS:PARS C_C3_TNA              N_0_TNA                3.3446881851e+00  8.5117565755e-02 
+LJCROSS:PARS H_C_C2_1_TNA          O_0_TNA                2.8314605794e+00  5.1380930315e-02 
+LJCROSS:PARS C_HC2_HC2N_0_TNA      H_C_C2_1_TNA           2.9700465542e+00  6.7970581872e-02 
+LJCROSS:PARS C_C4_TNA              C_C4_TNA               3.4308509636e+00  1.0500000000e-01 
+LJCROSS:PARS C_HC2_HC3_TNA         O_0_TNA                3.2707632962e+00  7.9372539332e-02 
+LJCROSS:PARS C_HC2_HC3_TNA         C_C4_TNA               3.4308509636e+00  1.0500000000e-01 
+LJCROSS:PARS C_H2C2_TNA            H_C_HC2_TNA            2.9700465542e+00  6.7970581872e-02 
+LJCROSS:PARS C_C2N_0_TNA           H_C_C2_1_TNA           2.9700465542e+00  6.7970581872e-02 
+LJCROSS:PARS C_HC2_HC2N_0_TNA      C_C4_TNA               3.4308509636e+00  1.0500000000e-01 
+
+
+

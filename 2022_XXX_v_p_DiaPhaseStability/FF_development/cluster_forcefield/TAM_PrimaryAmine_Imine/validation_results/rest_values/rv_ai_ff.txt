@@ -1,0 +1,90 @@
+REST VALUES                                                                        [UNIT]  |      RMSD      |       MD       |      RMSE      
+-------------------------------------------------------------------------------------------|----------------|----------------|----------------
+BONDS                                                                              [ A  ]  |     5.840e-03   |    2.396e-03   |     5.326e-03    
+C_C2N_H2C3_TAM.C_HC2_HC2N_TAM                                            ( 8  )  |     3.145e-03   |    9.378e-05   |     3.897e-03    
+C_HC2_HC2N_TAM.C_HC2_HC3_TAM                                             ( 8  )  |     7.559e-03   |    6.013e-03   |     5.836e-03    
+C_C3_H2C5_TAM.C_C4_C8_TAM                                                ( 4  )  |     2.305e-02   |    2.305e-02   |     2.065e-02    
+C_C3_H2C5_TAM.C_HC2_HC3_TAM                                              ( 8  )  |     5.397e-03   |    2.976e-03   |     4.539e-03    
+C_HC2_HC2N_TAM.H1_C_C2_TAM                                               ( 8  )  |     2.906e-04   |    1.289e-04   |     2.282e-03    
+C_HC2_HC3_TAM.H0_C_C2_TAM                                                ( 8  )  |     3.436e-04   |    4.020e-05   |     2.380e-03    
+C_C2N_H2C3_TAM.N_C2_HC3_TAM                                              ( 4  )  |     1.912e-03   |    1.911e-03   |     4.907e-04    
+C1_term.N_C2_HC3_TAM                                                          ( 4  )  |     3.278e-03   |    3.268e-03   |     9.094e-04    
+C1_term.C2_term                                                                    ( 4  )  |     9.968e-03   |    9.967e-03   |     7.572e-03    
+C2_term.C3_term                                                                    ( 8  )  |     2.420e-03   |    1.651e-03   |     1.920e-03    
+C3_term.C4_term                                                                    ( 8  )  |     3.019e-03   |    2.113e-03   |     2.175e-03    
+C4_term.C5_term                                                                    ( 8  )  |     2.569e-03   |   -3.465e-04   |     3.742e-03    
+C1_term.H2_term                                                                    ( 4  )  |     2.187e-04   |    2.009e-04   |     2.197e-03    
+C3_term.H4_term                                                                    ( 8  )  |     1.662e-03   |   -1.254e-04   |     3.017e-03    
+C4_term.H5_term                                                                    ( 8  )  |     3.840e-04   |   -3.537e-04   |     2.754e-03    
+C5_term.H6_term                                                                    ( 4  )  |     4.817e-04   |   -4.817e-04   |     2.878e-03    
+                                                                                           |                 |                |
+BENDS                                                                              [deg ]  |     7.602e-01   |    8.891e-04   |     7.602e-01    
+C_C3_H2C5_TAM.C_C4_C8_TAM.C_C3_H2C5_TAM                             ( 6  )  |     1.291e+00   |   -2.015e-02   |     1.291e+00    
+C_HC2_HC2N_TAM.C_C2N_H2C3_TAM.N_C2_HC3_TAM                          ( 8  )  |     2.133e+00   |    4.597e-01   |     2.133e+00    
+C_HC2_HC2N_TAM.C_C2N_H2C3_TAM.C_HC2_HC2N_TAM                        ( 4  )  |     9.847e-01   |   -9.841e-01   |     9.856e-01    
+C_C2N_H2C3_TAM.C_HC2_HC2N_TAM.C_HC2_HC3_TAM                         ( 8  )  |     5.662e-01   |    5.648e-01   |     5.653e-01    
+C_C2N_H2C3_TAM.C_HC2_HC2N_TAM.H1_C_C2_TAM                           ( 8  )  |     7.025e-01   |   -5.732e-01   |     7.033e-01    
+C_HC2_HC3_TAM.C_HC2_HC2N_TAM.H1_C_C2_TAM                            ( 8  )  |     4.537e-01   |    2.337e-02   |     4.537e-01    
+C_C3_H2C5_TAM.C_HC2_HC3_TAM.C_HC2_HC2N_TAM                          ( 8  )  |     4.801e-01   |    4.762e-01   |     4.792e-01    
+C_C3_H2C5_TAM.C_HC2_HC3_TAM.H0_C_C2_TAM                             ( 8  )  |     6.199e-01   |   -6.086e-01   |     6.208e-01    
+C_HC2_HC2N_TAM.C_HC2_HC3_TAM.H0_C_C2_TAM                            ( 8  )  |     2.278e-01   |    1.334e-01   |     2.273e-01    
+C_C4_C8_TAM.C_C3_H2C5_TAM.C_HC2_HC3_TAM                             ( 8  )  |     8.692e-01   |    5.817e-01   |     8.686e-01    
+C_HC2_HC3_TAM.C_C3_H2C5_TAM.C_HC2_HC3_TAM                           ( 4  )  |     1.093e+00   |   -1.093e+00   |     1.094e+00    
+C1_term.N_C2_HC3_TAM.C_C2N_H2C3_TAM                                      ( 4  )  |     1.739e-01   |    2.843e-02   |     1.738e-01    
+C2_term.C1_term.N_C2_HC3_TAM                                                  ( 4  )  |     4.290e-01   |   -4.289e-01   |     4.299e-01    
+H2_term.C1_term.N_C2_HC3_TAM                                                  ( 4  )  |     3.518e-01   |   -3.496e-01   |     3.527e-01    
+C2_term.C1_term.H2_term                                                            ( 4  )  |     7.802e-01   |    7.796e-01   |     7.793e-01    
+C1_term.C2_term.C3_term                                                            ( 8  )  |     1.088e+00   |    3.380e-01   |     1.087e+00    
+C3_term.C2_term.C3_term                                                            ( 4  )  |     6.760e-01   |   -6.760e-01   |     6.769e-01    
+C2_term.C3_term.H4_term                                                            ( 8  )  |     4.655e-01   |   -4.144e-01   |     4.663e-01    
+C4_term.C3_term.H4_term                                                            ( 8  )  |     4.496e-01   |    2.048e-02   |     4.496e-01    
+C2_term.C3_term.C4_term                                                            ( 8  )  |     4.598e-01   |    3.939e-01   |     4.590e-01    
+C3_term.C4_term.H5_term                                                            ( 8  )  |     1.124e-01   |   -1.117e-01   |     1.133e-01    
+C5_term.C4_term.H5_term                                                            ( 8  )  |     2.353e-01   |    7.350e-02   |     2.350e-01    
+C3_term.C4_term.C5_term                                                            ( 8  )  |     2.396e-01   |    3.818e-02   |     2.394e-01    
+C4_term.C5_term.H6_term                                                            ( 8  )  |     9.735e-02   |    9.404e-02   |     9.649e-02    
+C4_term.C5_term.C4_term                                                            ( 4  )  |     1.881e-01   |   -1.881e-01   |     1.890e-01    
+                                                                                           |                 |                |
+DIHEDRALS                                                                          [deg ]  |     5.712e+00   |   -7.117e-01   |     5.667e+00    
+C_HC2_HC3_TAM.C_HC2_HC2N_TAM.C_C2N_H2C3_TAM.N_C2_HC3_TAM       ( 8  )  |     2.591e+00   |   -5.273e-01   |     2.543e+00    
+C_HC2_HC2N_TAM.C_C2N_H2C3_TAM.C_HC2_HC2N_TAM.C_HC2_HC3_TAM     ( 8  )  |     3.102e+00   |   -4.465e-01   |     3.081e+00    
+H1_C_C2_TAM.C_HC2_HC2N_TAM.C_C2N_H2C3_TAM.N_C2_HC3_TAM         ( 8  )  |     2.949e+00   |    5.353e-01   |     3.157e+00    
+C_HC2_HC2N_TAM.C_C2N_H2C3_TAM.C_HC2_HC2N_TAM.H1_C_C2_TAM       ( 8  )  |     2.825e+00   |    6.160e-01   |     3.060e+00    
+C_C2N_H2C3_TAM.C_HC2_HC2N_TAM.C_HC2_HC3_TAM.C_C3_H2C5_TAM      ( 8  )  |     1.621e+00   |    9.146e-01   |     2.106e+00    
+C_C3_H2C5_TAM.C_HC2_HC3_TAM.C_HC2_HC2N_TAM.H1_C_C2_TAM         ( 8  )  |     1.065e+00   |   -1.489e-01   |     1.196e+00    
+C_C2N_H2C3_TAM.C_HC2_HC2N_TAM.C_HC2_HC3_TAM.H0_C_C2_TAM        ( 8  )  |     1.426e+00   |    6.442e-01   |     1.859e+00    
+H0_C_C2_TAM.C_HC2_HC3_TAM.C_HC2_HC2N_TAM.H1_C_C2_TAM           ( 8  )  |     1.031e+00   |   -4.192e-01   |     9.861e-01    
+C_C3_H2C5_TAM.C_C4_C8_TAM.C_C3_H2C5_TAM.C_HC2_HC3_TAM          ( 24 )  |     8.639e+00   |    6.860e-03   |     8.669e+00    
+C_C4_C8_TAM.C_C3_H2C5_TAM.C_HC2_HC3_TAM.H0_C_C2_TAM            ( 8  )  |     1.871e+00   |   -1.721e-01   |     1.940e+00    
+C_C4_C8_TAM.C_C3_H2C5_TAM.C_HC2_HC3_TAM.C_HC2_HC2N_TAM         ( 8  )  |     1.893e+00   |   -4.411e-01   |     1.860e+00    
+C_HC2_HC3_TAM.C_C3_H2C5_TAM.C_HC2_HC3_TAM.H0_C_C2_TAM          ( 8  )  |     1.184e+00   |   -1.867e-01   |     1.282e+00    
+C_HC2_HC2N_TAM.C_HC2_HC3_TAM.C_C3_H2C5_TAM.C_HC2_HC3_TAM       ( 8  )  |     7.705e-01   |   -4.556e-01   |     6.720e-01    
+C1_term.N_C2_HC3_TAM.C_C2N_H2C3_TAM.C_HC2_HC2N_TAM                  ( 8  )  |     2.699e+01   |   -2.647e+01   |     2.629e+01    
+C2_term.C1_term.N_C2_HC3_TAM.C_C2N_H2C3_TAM                              ( 4  )  |     2.937e+00   |    2.936e+00   |     3.649e+00    
+C_C2N_H2C3_TAM.N_C2_HC3_TAM.C1_term.H2_term                              ( 4  )  |     3.043e+00   |    3.041e+00   |     3.755e+00    
+C3_term.C2_term.C1_term.N_C2_HC3_TAM                                          ( 8  )  |     7.875e-01   |    7.854e-01   |     1.498e+00    
+C3_term.C2_term.C1_term.H2_term                                                    ( 8  )  |     7.008e-01   |    6.941e-01   |     1.409e+00    
+C3_term.C2_term.C3_term.H4_term                                                    ( 8  )  |     2.739e-02   |   -1.292e-02   |     6.992e-01    
+C1_term.C2_term.C3_term.H4_term                                                    ( 8  )  |     2.924e-02   |   -1.378e-02   |     6.984e-01    
+C3_term.C2_term.C3_term.C4_term                                                    ( 8  )  |     4.608e-02   |    2.826e-02   |     7.409e-01    
+C1_term.C2_term.C3_term.C4_term                                                    ( 8  )  |     3.120e-02   |    2.741e-02   |     7.393e-01    
+H4_term.C3_term.C4_term.H5_term                                                    ( 8  )  |     2.389e-02   |    1.474e-02   |     7.267e-01    
+C2_term.C3_term.C4_term.H5_term                                                    ( 8  )  |     2.888e-02   |   -2.731e-02   |     6.845e-01    
+C5_term.C4_term.C3_term.H4_term                                                    ( 8  )  |     2.447e-02   |   -1.458e-02   |     6.974e-01    
+C2_term.C3_term.C4_term.C5_term                                                    ( 8  )  |     6.396e-02   |   -5.663e-02   |     6.558e-01    
+H5_term.C4_term.C5_term.H6_term                                                    ( 8  )  |     5.868e-03   |   -1.012e-03   |     7.107e-01    
+C3_term.C4_term.C5_term.H6_term                                                    ( 8  )  |     4.332e-02   |    2.831e-02   |     7.408e-01    
+C4_term.C5_term.C4_term.H5_term                                                    ( 8  )  |     1.148e-02   |   -1.013e-03   |     7.108e-01    
+C3_term.C4_term.C5_term.C4_term                                                    ( 8  )  |     3.654e-02   |    2.831e-02   |     7.404e-01    
+                                                                                           |                 |                |
+OOPDISTS                                                                           [ A  ]  |     3.641e-02   |   -8.796e-03   |     3.534e-02    
+C_HC2_HC2N_TAM.C_HC2_HC2N_TAM.N_C2_HC3_TAM.C_C2N_H2C3_TAM      ( 4  )  |     1.198e-01   |   -1.099e-01   |     1.118e-01    
+C_C2N_H2C3_TAM.C_HC2_HC3_TAM.H1_C_C2_TAM.C_HC2_HC2N_TAM        ( 8  )  |     2.138e-02   |    1.349e-02   |     2.778e-02    
+C_C3_H2C5_TAM.C_HC2_HC2N_TAM.H0_C_C2_TAM.C_HC2_HC3_TAM         ( 8  )  |     1.558e-02   |   -5.661e-03   |     1.485e-02    
+C_C4_C8_TAM.C_HC2_HC3_TAM.C_HC2_HC3_TAM.C_C3_H2C5_TAM          ( 4  )  |     3.841e-02   |   -2.217e-02   |     3.409e-02    
+C2_term.H2_term.N_C2_HC3_TAM.C1_term                                          ( 4  )  |     2.182e-03   |    1.889e-03   |     1.074e-02    
+C1_term.C3_term.C3_term.C2_term                                                    ( 4  )  |     1.032e-03   |    9.840e-04   |     9.785e-03    
+C2_term.C4_term.H4_term.C3_term                                                    ( 8  )  |     9.622e-04   |    3.373e-04   |     9.178e-03    
+C3_term.C5_term.H5_term.C4_term                                                    ( 8  )  |     9.199e-04   |   -6.268e-04   |     8.197e-03    
+C4_term.C4_term.H6_term.C5_term                                                    ( 4  )  |     2.136e-04   |   -1.987e-04   |     8.598e-03    
+                                                                                           |                 |                |
