@@ -1,0 +1,153 @@
+data_COF-300+THF
+_audit_creation_date              2018-07-11
+_audit_creation_method            'Materials Studio'
+_symmetry_space_group_name_H-M    'I41/A'
+_symmetry_Int_Tables_number       88
+_symmetry_cell_setting            tetragonal
+_chemical_formula_moiety          'C41 H28 N4, 8(C4 H8 O)'
+_chemical_formula_weight          1153.51 
+loop_
+_symmetry_equiv_pos_as_xyz
+  x,y,z
+  -x+1/2,-y+1/2,z+1/2
+  -y,x+1/2,z+1/4
+  y+1/2,-x,z+3/4
+  -x,-y+1/2,-z+1/4
+  x+1/2,y,-z+3/4
+  y,-x,-z
+  -y+1/2,x+1/2,-z+1/2
+  x+1/2,y+1/2,z+1/2
+  -x,-y,z
+  -y+1/2,x,z+3/4
+  y,-x+1/2,z+1/4
+  -x+1/2,-y,-z+3/4
+  x,y+1/2,-z+1/4
+  y+1/2,-x+1/2,-z+1/2
+  -y,x,-z
+_cell_length_a                    27.486(1)
+_cell_length_b                    27.486(1)
+_cell_length_c                    7.2850(3)
+_cell_angle_alpha                 90.0000
+_cell_angle_beta                  90.0000
+_cell_angle_gamma                 90.0000
+_cell_formula_units_Z             4
+_cell_measurement_temperature     298(2) 
+_diffrn_radiation_wavelength      0.6895 
+_diffrn_reflns_theta_min          0.5 
+_diffrn_reflns_theta_max          16 
+_diffrn_radiation_type            X-ray 
+_diffrn_radiation_source          'Synchrotron' 
+_refine_ls_Rwp_factor             0.0476 
+_refine_ls_Rp_factor              0.0322 
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+C1     C     0.38349   0.50656   0.90146   0.02500  Uiso   1.00
+C2     C     0.42286   0.53779   0.91079   0.02500  Uiso   1.00
+C3     C     0.45850   0.53685   0.77639   0.02500  Uiso   1.00
+C4     C     0.45599   0.50397   0.62998   0.02500  Uiso   1.00
+C5     C     0.41743   0.47081   0.62999   0.02500  Uiso   1.00
+C6     C     0.38026   0.47286   0.75903   0.02500  Uiso   1.00
+H7     H     0.42460   0.56357   1.02141   0.02500  Uiso   1.00
+H8     H     0.48890   0.56156   0.78541   0.02500  Uiso   1.00
+H9     H     0.41801   0.44129   0.53969   0.02500  Uiso   1.00
+H10    H     0.35133   0.44627   0.75364   0.02500  Uiso   1.00
+N11    N     0.34940   0.50897   1.04683   0.00000  Uiso   1.00
+C12    C     0.30523   0.49311   1.04582   0.00000  Uiso   1.00
+C13    C     0.27685   0.49752   1.21326   0.00000  Uiso   1.00
+C14    C     0.27318   0.51009   1.54168   0.00000  Uiso   1.00
+C15    C     0.29996   0.50788   1.38057   0.00000  Uiso   1.00
+H16    H     0.29129   0.51939   1.66785   0.00000  Uiso   1.00
+H17    H     0.33873   0.51452   1.38604   0.00000  Uiso   1.00
+H18    H     0.71063   0.52406   0.92660   0.00000  Uiso   1.00
+O19    O     0.33963   0.83483   1.08447   0.00000  Uiso   1.00
+C20    C     0.38697   0.82875   1.01889   0.00000  Uiso   1.00
+C21    C     0.39286   0.86585   0.87113   0.00000  Uiso   1.00
+C22    C     0.35959   0.90644   0.93364   0.00000  Uiso   1.00
+C23    C     0.33387   0.88522   1.09642   0.00000  Uiso   1.00
+H24    H     0.41300   0.83516   1.13118   0.00000  Uiso   1.00
+H25    H     0.39409   0.79119   0.97339   0.00000  Uiso   1.00
+H26    H     0.37902   0.85179   0.73956   0.00000  Uiso   1.00
+H27    H     0.43152   0.87546   0.85595   0.00000  Uiso   1.00
+H28    H     0.33514   0.91751   0.82160   0.00000  Uiso   1.00
+H29    H     0.37770   0.93967   0.97729   0.00000  Uiso   1.00
+H30    H     0.29509   0.89530   1.10197   0.00000  Uiso   1.00
+H31    H     0.35109   0.89863   1.22477   0.00000  Uiso   1.00
+O32    O     0.19232   0.80071   0.88579   0.00000  Uiso   1.00
+C33    C     0.23387   0.82514   0.94431   0.00000  Uiso   1.00
+C34    C     0.23675   0.87184   0.83721   0.00000  Uiso   1.00
+C35    C     0.20357   0.86420   0.67900   0.00000  Uiso   1.00
+C36    C     0.18700   0.81216   0.70149   0.00000  Uiso   1.00
+H37    H     0.23346   0.83119   1.09286   0.00000  Uiso   1.00
+H38    H     0.26532   0.80145   0.92623   0.00000  Uiso   1.00
+H39    H     0.27358   0.87743   0.78650   0.00000  Uiso   1.00
+H40    H     0.22525   0.90274   0.92057   0.00000  Uiso   1.00
+H41    H     0.22472   0.86853   0.55084   0.00000  Uiso   1.00
+H42    H     0.17218   0.88956   0.68429   0.00000  Uiso   1.00
+H43    H     0.20923   0.78690   0.61595   0.00000  Uiso   1.00
+H44    H     0.14841   0.80727   0.66521   0.00000  Uiso   1.00
+C45    C     0.00000   0.50000   0.25000   0.02500  Uiso   1.00
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_ccdc_geom_bond_type
+C1     C2      1.383   .     A
+C1     C6      1.394   .     A
+C1     N11     1.416   .     S
+C2     C3      1.385   .     A
+C2     H7      1.074   .     S
+C3     C4      1.400   .     A
+C3     H8      1.079   .     S
+C4     C5      1.398   .     A
+C4     C45     1.540   3_655 S
+C5     C6      1.390   .     A
+C5     H9      1.045   .     S
+C6     H10     1.081   .     S
+N11    C12     1.290   .     D
+C12    C13     1.453   .     S
+C12    H18     1.080   10_665 S
+C13    C15     1.404   .     A
+C13    C14     1.392   13_567 A
+C14    C15     1.387   .     A
+C14    H16     1.076   .     S
+C14    C13     1.392   13_567 A
+C15    H17     1.082   .     S
+H18    C12     1.080   10_665 S
+O19    C20     1.396   .     S
+O19    C23     1.397   .     S
+C20    C21     1.492   .     S
+C20    H24     1.101   .     S
+C20    H25     1.102   .     S
+C21    C22     1.513   .     S
+C21    H26     1.101   .     S
+C21    H27     1.101   .     S
+C22    C23     1.499   .     S
+C22    H28     1.100   .     S
+C22    H29     1.088   .     S
+C23    H30     1.102   .     S
+C23    H31     1.111   .     S
+O32    C33     1.392   .     S
+O32    C36     1.387   .     S
+C33    C34     1.504   .     S
+C33    H37     1.095   .     S
+C33    H38     1.090   .     S
+C34    C35     1.485   .     S
+C34    H39     1.088   .     S
+C34    H40     1.091   .     S
+C35    C36     1.510   .     S
+C35    H41     1.106   .     S
+C35    H42     1.110   .     S
+C36    H43     1.115   .     S
+C36    H44     1.101   .     S
+C45    C4      1.540   4_464 S
+C45    C4      1.540   6_455 S
+C45    C4      1.540   11_554 S
+C45    C4      1.540   13_565 S

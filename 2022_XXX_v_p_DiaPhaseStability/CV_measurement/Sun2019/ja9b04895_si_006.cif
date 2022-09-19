@@ -1,0 +1,1149 @@
+data_COF-300-PMMA_Cryo
+_audit_creation_date               2019-05-05
+_audit_creation_method
+;
+Olex2 1.2
+(compiled 2018.05.29 svn.r3508 for OlexSys, GUI svn.r5506)
+;
+_shelx_SHELXL_version_number       '2017/1'
+_audit_contact_author_address      ?
+_audit_contact_author_email        ?
+_audit_contact_author_name         ''
+_audit_contact_author_phone        ?
+_publ_contact_author_id_orcid      ?
+_publ_section_references
+;
+Dolomanov, O.V., Bourhis, L.J., Gildea, R.J, Howard, J.A.K. & Puschmann, H.
+ (2009), J. Appl. Cryst. 42, 339-341.
+
+Sheldrick, G.M. (2008). Acta Cryst. A64, 112-122.
+;
+_chemical_name_common              ?
+_chemical_name_systematic          COF-300-PMMA_cryo
+_chemical_formula_moiety           '0.25(C164 H112 N16)'
+_chemical_formula_sum              'C41 H28 N4'
+_chemical_formula_weight           576.67
+_chemical_melting_point            ?
+loop_
+  _atom_type_symbol
+  _atom_type_description
+  _atom_type_scat_dispersion_real
+  _atom_type_scat_dispersion_imag
+  _atom_type_scat_source
+ 'C' 'C' 0.0033 0.0016 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+ 'H' 'H' 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+ 'N' 'N' 0.0061 0.0033 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+
+_shelx_space_group_comment
+;
+The symmetry employed for this shelxl refinement is uniquely defined
+by the following loop, which should always be used as a source of
+symmetry information in preference to the above space-group names.
+They are only intended as comments.
+;
+_space_group_crystal_system        'tetragonal'
+_space_group_IT_number             88
+_space_group_name_H-M_alt          'I 41/a'
+_space_group_name_Hall             '-I 4ad'
+loop_
+  _space_group_symop_operation_xyz
+ 'x, y, z'
+ '-x+1/2, -y, z+1/2'
+ '-y+3/4, x+1/4, z+1/4'
+ 'y+3/4, -x+3/4, z+3/4'
+ 'x+1/2, y+1/2, z+1/2'
+ '-x+1, -y+1/2, z+1'
+ '-y+5/4, x+3/4, z+3/4'
+ 'y+5/4, -x+5/4, z+5/4'
+ '-x, -y, -z'
+ 'x-1/2, y, -z-1/2'
+ 'y-3/4, -x-1/4, -z-1/4'
+ '-y-3/4, x-3/4, -z-3/4'
+ '-x+1/2, -y+1/2, -z+1/2'
+ 'x, y+1/2, -z'
+ 'y-1/4, -x+1/4, -z+1/4'
+ '-y-1/4, x-1/4, -z-1/4'
+
+_cell_length_a                     27.300
+_cell_length_b                     27.300
+_cell_length_c                     7.700
+_cell_angle_alpha                  90
+_cell_angle_beta                   90
+_cell_angle_gamma                  90
+_cell_volume                       5738.7
+_cell_formula_units_Z              4
+_cell_measurement_reflns_used      ?
+_cell_measurement_temperature      77
+_cell_measurement_theta_max        ?
+_cell_measurement_theta_min        ?
+_shelx_estimated_absorpt_T_max     1.000
+_shelx_estimated_absorpt_T_min     1.000
+_exptl_absorpt_coefficient_mu      0.040
+_exptl_absorpt_correction_T_max    ?
+_exptl_absorpt_correction_T_min    ?
+_exptl_absorpt_correction_type     none
+_exptl_absorpt_process_details     ?
+_exptl_absorpt_special_details     ?
+_exptl_crystal_colour              'dull yellowish yellow'
+_exptl_crystal_colour_lustre       dull
+_exptl_crystal_colour_modifier     yellowish
+_exptl_crystal_colour_primary      yellow
+_exptl_crystal_density_diffrn      0.667
+_exptl_crystal_density_meas        ?
+_exptl_crystal_density_method      ?
+_exptl_crystal_description         prism
+_exptl_crystal_F_000               1208
+_exptl_crystal_preparation        
+ 'Included of monomer and polymerized in the pore'
+_exptl_crystal_recrystallization_method 
+ 'Y. B. Zhang, et al. J. Am. Chem. Soc. 2019, 141, 3298.'
+_exptl_crystal_size_max            0.006
+_exptl_crystal_size_mid            0.001
+_exptl_crystal_size_min            0.0006
+_exptl_transmission_factor_max     ?
+_exptl_transmission_factor_min     ?
+_diffrn_reflns_av_R_equivalents    0.2740
+_diffrn_reflns_av_unetI/netI       0.1908
+_diffrn_reflns_Laue_measured_fraction_full  0.572
+_diffrn_reflns_Laue_measured_fraction_max  0.572
+_diffrn_reflns_limit_h_max         14
+_diffrn_reflns_limit_h_min         -13
+_diffrn_reflns_limit_k_max         15
+_diffrn_reflns_limit_k_min         -16
+_diffrn_reflns_limit_l_max         4
+_diffrn_reflns_limit_l_min         -4
+_diffrn_reflns_number              616
+_diffrn_reflns_point_group_measured_fraction_full  0.572
+_diffrn_reflns_point_group_measured_fraction_max  0.572
+_diffrn_reflns_theta_full          0.479
+_diffrn_reflns_theta_max           0.479
+_diffrn_reflns_theta_min           0.053
+_diffrn_ambient_temperature        77
+_diffrn_detector_area_resol_mean   ?
+_diffrn_measured_fraction_theta_full  0.572
+_diffrn_measured_fraction_theta_max  0.572
+_diffrn_measurement_device_type    'JEOL JEM 2100 Plus with TVIPS CMOS'
+_diffrn_measurement_method         ?
+_diffrn_radiation_type             ?
+_diffrn_radiation_wavelength       0.0251
+_diffrn_source                     ?
+_reflns_Friedel_coverage           0.000
+_reflns_Friedel_fraction_full      .
+_reflns_Friedel_fraction_max       .
+_reflns_number_gt                  218
+_reflns_number_total               253
+_reflns_special_details
+;
+ Reflections were merged by SHELXL according to the crystal
+ class for the calculation of statistics and refinement.
+ 
+ _reflns_Friedel_fraction is defined as the number of unique
+ Friedel pairs measured divided by the number that would be
+ possible theoretically, ignoring centric projections and
+ systematic absences.
+;
+_reflns_threshold_expression       'I > 2\s(I)'
+_computing_cell_refinement         ?
+_computing_data_collection         ?
+_computing_data_reduction          ?
+_computing_molecular_graphics      'Olex2 (Dolomanov et al., 2009)'
+_computing_publication_material    'Olex2 (Dolomanov et al., 2009)'
+_computing_structure_refinement    'XL (Sheldrick, 2008)'
+_computing_structure_solution      'ShelXS (Sheldrick, 2008)'
+_refine_diff_density_max           0.584
+_refine_diff_density_min           -0.657
+_refine_diff_density_rms           0.196
+_refine_ls_extinction_coef         .
+_refine_ls_extinction_method       none
+_refine_ls_goodness_of_fit_ref     1.192
+_refine_ls_hydrogen_treatment      constr
+_refine_ls_matrix_type             full
+_refine_ls_number_parameters       60
+_refine_ls_number_reflns           253
+_refine_ls_number_restraints       241
+_refine_ls_R_factor_all            0.4084
+_refine_ls_R_factor_gt             0.4033
+_refine_ls_restrained_S_all        0.800
+_refine_ls_shift/su_max            0.000
+_refine_ls_shift/su_mean           0.000
+_refine_ls_structure_factor_coef   Fsqd
+_refine_ls_weighting_details      
+ 'w=1/[\s^2^(Fo^2^)+(0.2000P)^2^+3000.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme        calc
+_refine_ls_wR_factor_gt            0.7484
+_refine_ls_wR_factor_ref           0.7525
+_refine_special_details            ?
+_olex2_refinement_description
+;
+1. Fixed Uiso
+ At 1.2 times of:
+  All C(H) groups
+2. Restrained distances
+ C2-C1 = N1-C5 = C9-C8
+ 1.5 with sigma of 0.02
+ N1-C8
+ 1.3 with sigma of 0.02
+ C1-C3 \\sim C1-C7 \\sim N1-C4 \\sim N1-C6 \\sim C8-C10 \\sim C8-C11
+ with sigma of 0.02
+ C2-C4 \\sim C6-C2 \\sim C4-C6 \\sim C5-C3 \\sim C5-C7 \\sim C7-C3 \\sim
+C9-C11_$1 \\sim C11_$1-C10_$1 ~
+ C10_$1-C9 \\sim C9_$1-C10 \\sim C9_$1-C11 \\sim C11-C10
+ with sigma of 0.02
+ C6-C5 \\sim C7-C6 \\sim C7-C2 \\sim C3-C2 \\sim C4-C3 \\sim C5-C4 \\sim C9-C11
+\\sim C11-C10_$1 \\sim C9_$1-
+ C10_$1 \\sim C9_$1-C11_$1 \\sim C11_$1-C10 \\sim C9-C10
+ with sigma of 0.02
+ C2-C1 \\sim N1-C5 \\sim C9-C8
+ with sigma of 0.02
+3. Restrained planarity
+ C2, C6, C7, C5, C4, C3
+ with sigma of 0.1
+ C9, C10, C11_$1, C9_$1, C10_$1, C11
+ with sigma of 0.1
+4. Uiso/Uaniso restraints and constraints
+Uanis(C5) = Uanis(C4) = Uanis(C3) = Uanis(C2) = Uanis(C7) = Uanis(C6)
+Uanis(C11) = Uanis(C9) = Uanis(C10)
+5. Rigid body (RIGU) restrains
+ C2, C3, C4, C5, C6, C7, C1, N1, C9, C9, C8, C8, C10, C10, C11, C11
+ with sigma for 1-2 distances of 0.004 and sigma for 1-3 distances of 0.004
+6.a Aromatic/amide H refined with riding coordinates:
+ C3(H3), C4(H4), C6(H6), C7(H7), C8(H8), C10(H10), C11(H11)
+;
+_atom_sites_solution_hydrogens     geom
+_atom_sites_solution_primary       direct
+_atom_sites_solution_secondary     ?
+loop_
+  _atom_site_label
+  _atom_site_type_symbol
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_U_iso_or_equiv
+  _atom_site_adp_type
+  _atom_site_occupancy
+  _atom_site_site_symmetry_order
+  _atom_site_calc_flag
+  _atom_site_refinement_flags_posn
+  _atom_site_refinement_flags_adp
+  _atom_site_refinement_flags_occupancy
+  _atom_site_disorder_assembly
+  _atom_site_disorder_group
+ C2 C -0.0004(17) 0.2939(15) 0.743(7) 0.08(2) Uani 1 1 d D U . . .
+ C3 C 0.0365(19) 0.2994(18) 0.870(8) 0.08(2) Uani 1 1 d D U . . .
+ H3 H 0.062295 0.276107 0.876936 0.101 Uiso 1 1 calc R . . . .
+ C4 C 0.035(2) 0.339(2) 0.985(8) 0.08(2) Uani 1 1 d D U . . .
+ H4 H 0.061078 0.343588 1.066704 0.101 Uiso 1 1 calc R . . . .
+ C5 C -0.004(2) 0.373(3) 0.980(8) 0.08(2) Uani 1 1 d D U . . .
+ C6 C -0.040(2) 0.368(2) 0.852(7) 0.08(2) Uani 1 1 d D U . . .
+ H6 H -0.065936 0.391152 0.843846 0.101 Uiso 1 1 calc R . . . .
+ C7 C -0.0387(19) 0.3282(16) 0.735(6) 0.08(2) Uani 1 1 d D U . . .
+ H7 H -0.063649 0.324600 0.649473 0.101 Uiso 1 1 calc R . . . .
+ C1 C 0.000000 0.250000 0.625000 0.11(4) Uani 1 4 d DS TU P . .
+ N1 N -0.011(3) 0.408(4) 1.126(11) 0.14(5) Uani 1 1 d D U . . .
+ C9 C 0.009(4) 0.461(2) 1.386(6) 0.13(4) Uani 1 1 d D U . . .
+ C8 C 0.013(4) 0.417(3) 1.270(10) 0.11(5) Uani 1 1 d D U . . .
+ H8 H 0.036003 0.392069 1.304629 0.135 Uiso 1 1 calc R . . . .
+ C10 C 0.025(4) 0.4583(19) 1.559(7) 0.13(4) Uani 1 1 d D U . . .
+ H10 H 0.042587 0.430205 1.598172 0.159 Uiso 1 1 calc R . . . .
+ C11 C -0.017(4) 0.502(2) 1.327(6) 0.13(4) Uani 1 1 d D U . . .
+ H11 H -0.027797 0.504090 1.210624 0.159 Uiso 1 1 calc R . . . .
+
+loop_
+  _atom_site_aniso_label
+  _atom_site_aniso_U_11
+  _atom_site_aniso_U_22
+  _atom_site_aniso_U_33
+  _atom_site_aniso_U_23
+  _atom_site_aniso_U_13
+  _atom_site_aniso_U_12
+ C2 0.08(5) 0.10(5) 0.07(5) 0.03(3) 0.02(3) -0.02(2)
+ C3 0.08(5) 0.10(5) 0.07(5) 0.03(3) 0.02(3) -0.02(2)
+ C4 0.08(5) 0.10(5) 0.07(5) 0.03(3) 0.02(3) -0.02(2)
+ C5 0.08(5) 0.10(5) 0.07(5) 0.03(3) 0.02(3) -0.02(2)
+ C6 0.08(5) 0.10(5) 0.07(5) 0.03(3) 0.02(3) -0.02(2)
+ C7 0.08(5) 0.10(5) 0.07(5) 0.03(3) 0.02(3) -0.02(2)
+ C1 0.12(5) 0.12(5) 0.11(7) 0.000 0.000 0.000
+ N1 0.13(8) 0.17(8) 0.12(7) -0.03(6) -0.02(5) 0.04(6)
+ C9 0.18(9) 0.09(7) 0.13(7) 0.00(5) -0.05(6) 0.02(6)
+ C8 0.15(11) 0.08(7) 0.11(7) 0.01(5) -0.02(6) 0.00(8)
+ C10 0.18(9) 0.09(7) 0.13(7) 0.00(5) -0.05(6) 0.02(6)
+ C11 0.18(9) 0.09(7) 0.13(7) 0.00(5) -0.05(6) 0.02(6)
+
+_geom_special_details
+;
+ All esds (except the esd in the dihedral angle between two l.s. planes)
+ are estimated using the full covariance matrix.  The cell esds are taken
+ into account individually in the estimation of esds in distances, angles
+ and torsion angles; correlations between esds in cell parameters are only
+ used when they are defined by crystal symmetry.  An approximate (isotropic)
+ treatment of cell esds is used for estimating esds involving l.s. planes.
+;
+loop_
+  _geom_bond_atom_site_label_1
+  _geom_bond_atom_site_label_2
+  _geom_bond_distance
+  _geom_bond_site_symmetry_2
+  _geom_bond_publ_flag
+ C2 C3 1.41(3) . ?
+ C2 C7 1.41(3) . ?
+ C2 C1 1.506(15) . ?
+ C3 C4 1.40(3) . ?
+ C4 C5 1.41(3) . ?
+ C5 C6 1.41(3) . ?
+ C5 N1 1.505(16) . ?
+ C6 C7 1.41(3) . ?
+ N1 C8 1.30(2) . ?
+ C9 C8 1.506(16) . ?
+ C9 C10 1.41(3) . ?
+ C9 C11 1.41(3) . ?
+ C10 C11 1.41(3) 9_568 ?
+
+loop_
+  _geom_angle_atom_site_label_1
+  _geom_angle_atom_site_label_2
+  _geom_angle_atom_site_label_3
+  _geom_angle
+  _geom_angle_site_symmetry_1
+  _geom_angle_site_symmetry_3
+  _geom_angle_publ_flag
+ C3 C2 C1 119.9(13) . . ?
+ C7 C2 C3 119.7(11) . . ?
+ C7 C2 C1 120.4(13) . . ?
+ C4 C3 C2 120.2(12) . . ?
+ C3 C4 C5 120.1(12) . . ?
+ C4 C5 N1 119.7(14) . . ?
+ C6 C5 C4 119.7(11) . . ?
+ C6 C5 N1 120.0(14) . . ?
+ C7 C6 C5 120.1(12) . . ?
+ C2 C7 C6 120.2(12) . . ?
+ C2 C1 C2 111(3) 6_454 15_556 ?
+ C2 C1 C2 111(3) 12_667 6_454 ?
+ C2 C1 C2 111(3) . 15_556 ?
+ C2 C1 C2 106(5) 12_667 15_556 ?
+ C2 C1 C2 111(3) . 12_667 ?
+ C2 C1 C2 106(5) . 6_454 ?
+ C8 N1 C5 133(6) . . ?
+ C10 C9 C8 119.9(13) . . ?
+ C10 C9 C11 119.9(9) . . ?
+ C11 C9 C8 119.9(13) . . ?
+ N1 C8 C9 127(7) . . ?
+ C11 C10 C9 120.0(10) 9_568 . ?
+ C10 C11 C9 120.0(10) 9_568 . ?
+
+_shelx_res_file
+;
+TITL COF-300-PMMA_cryo in I4(1)/a
+    cof300.res
+    created by SHELXL-2017/1 at 21:16:49 on 05-May-2019
+CELL 0.0251 27.3 27.3 7.7 90 90 90
+ZERR 4 0 0 0 0 0 0
+LATT 2
+SYMM 0.5-X,-Y,0.5+Z
+SYMM 0.75-Y,0.25+X,0.25+Z
+SYMM 0.75+Y,0.75-X,0.75+Z
+SFAC C H N
+UNIT 164 112 16
+EQIV $1 -X,1-Y,3-Z
+DFIX 1.5 C2 C1 N1 C5 C9 C8
+DFIX 1.3 N1 C8
+SADI C1 C3 C1 C7 N1 C4 N1 C6 C8 C10 C8 C11
+SADI C2 C4 C6 C2 C4 C6 C5 C3 C5 C7 C7 C3 C9 C11_$1 C11_$1 C10_$1 C10_$1 C9 =
+ C9_$1 C10 C9_$1 C11 C11 C10
+SADI C6 C5 C7 C6 C7 C2 C3 C2 C4 C3 C5 C4 C9 C11 C11 C10_$1 C9_$1 C10_$1 =
+ C9_$1 C11_$1 C11_$1 C10 C9 C10
+SADI C2 C1 N1 C5 C9 C8
+FLAT C2 C6 C7 C5 C4 C3
+FLAT C9 C10 C11_$1 C9_$1 C10_$1 C11
+RIGU C2 C3 C4 C5 C6 C7 C1 N1 C9 C9 C8 C8 C10 C10 C11 C11
+EADP C5 C4 C3 C2 C7 C6
+EADP C11 C9 C10
+
+L.S. 99 0 0
+PLAN  1
+SIZE 0.001 0.0006 0.006
+TEMP -196.15
+LIST 6
+fmap 2 53
+acta
+REM <olex2.extras>
+REM <HklSrc "%.\\PMMA.hkl">
+REM </olex2.extras>
+
+WGHT    0.200000 3000.000000
+FVAR       0.86732
+C2    1   -0.000367    0.293919    0.743377    11.00000    0.07941    0.09904 =
+         0.07378    0.02608    0.02465   -0.01911
+C3    1    0.036530    0.299410    0.869758    11.00000    0.07941    0.09904 =
+         0.07378    0.02608    0.02465   -0.01911
+AFIX  43
+H3    2    0.062295    0.276107    0.876936    11.00000   -1.20000
+AFIX   0
+C4    1    0.035353    0.339192    0.985094    11.00000    0.07941    0.09904 =
+         0.07378    0.02608    0.02465   -0.01911
+AFIX  43
+H4    2    0.061078    0.343588    1.066704    11.00000   -1.20000
+AFIX   0
+C5    1   -0.003929    0.372609    0.979989    11.00000    0.07941    0.09904 =
+         0.07378    0.02608    0.02465   -0.01911
+C6    1   -0.040302    0.367720    0.851547    11.00000    0.07941    0.09904 =
+         0.07378    0.02608    0.02465   -0.01911
+AFIX  43
+H6    2   -0.065936    0.391152    0.843846    11.00000   -1.20000
+AFIX   0
+C7    1   -0.038720    0.328170    0.734619    11.00000    0.07941    0.09904 =
+         0.07378    0.02608    0.02465   -0.01911
+AFIX  43
+H7    2   -0.063649    0.324600    0.649473    11.00000   -1.20000
+AFIX   0
+C1    1    0.000000    0.250000    0.625000    10.25000    0.11783    0.11783 =
+         0.10560    0.00000    0.00000    0.00000
+N1    3   -0.010754    0.408476    1.126386    11.00000    0.13426    0.17307 =
+         0.11637   -0.03151   -0.01951    0.03900
+C9    1    0.008885    0.460745    1.385712    11.00000    0.17514    0.08986 =
+         0.13207   -0.00350   -0.04571    0.01604
+C8    1    0.013327    0.416564    1.269752    11.00000    0.15129    0.07686 =
+         0.11054    0.01388   -0.02460    0.00201
+AFIX  43
+H8    2    0.036003    0.392069    1.304629    11.00000   -1.20000
+AFIX   0
+C10   1    0.025428    0.458342    1.558567    11.00000    0.17514    0.08986 =
+         0.13207   -0.00350   -0.04571    0.01604
+AFIX  43
+H10   2    0.042587    0.430205    1.598172    11.00000   -1.20000
+AFIX   0
+C11   1   -0.016581    0.502444    1.327271    11.00000    0.17514    0.08986 =
+         0.13207   -0.00350   -0.04571    0.01604
+AFIX  43
+H11   2   -0.027797    0.504090    1.210624    11.00000   -1.20000
+AFIX   0
+HKLF 4
+
+
+
+
+REM  COF-300-PMMA_cryo in I4(1)/a
+REM R1 =  0.4033 for     218 Fo > 4sig(Fo)  and  0.4084 for all     253 data
+REM     60 parameters refined using    241 restraints
+
+END
+
+WGHT      0.2000      0.0000
+
+REM Highest difference peak  0.584,  deepest hole -0.657,  1-sigma level  0.196
+Q1    1   0.1314  0.4596  1.0998  11.00000  0.05    0.58
+;
+_shelx_res_checksum                49678
+_shelx_hkl_file
+;
+  -4  -4  -213463.60  403.91
+   2   6   2 4941.44  148.24
+  11  -6   1 1997.59   59.93
+   8 -11  -1  935.38   28.06
+  13  -8   1  707.90   21.24
+   3   5   2 1722.80   51.68
+   4   4   216359.64  490.79
+  -6  -2  -2 5937.99  178.14
+  -7  -1  -2  567.47   17.02
+ -10   2  -210146.42  304.39
+   6   2   2 6773.87  203.22
+ -11   3  -2 1956.67   58.70
+   5   3   2 1205.78   36.17
+ -12   4  -2  401.50   12.05
+  -4   4   042137.24 1264.12
+ -10  10   0  943.87   28.32
+  10  -2   2 6285.74  188.57
+  -8   8   0 3708.63  111.26
+  -2   2   0 6036.04  181.08
+  -6   6   014126.34  423.79
+  11  -3   2 1333.48   40.00
+   2  -2   0 6838.07  205.14
+   4  -4   045004.33 1350.13
+   6  -6   020825.14  624.75
+  14  -6   2  317.07    9.51
+   8  -8   0 1823.30   54.70
+  -2  10   212731.33  381.94
+ -12   1  -3  193.60    5.81
+ -11   0  -3  978.91   29.37
+ -10  -1  -3  421.63   12.65
+  -9  -2  -3  143.21    4.30
+ -11   8  -1  232.43    6.97
+  -8  -3  -3  773.61   23.21
+   6 -14  -2  520.15   15.60
+ -10   7  -1  267.98    8.04
+   4 -12  -2  565.70   16.97
+  -7  -4  -3 2354.76   70.64
+  12  -1   3  208.42    6.25
+  -9   6  -1 2954.94   88.65
+  11   0   3  767.84   23.04
+  -6  -5  -3 4252.15  127.56
+  11  -8   1  962.19   28.87
+  10   1   3  194.50    5.83
+  -8   5  -1  203.51    6.11
+  10  -7   1  482.30   14.47
+  -7   4  -116553.47  496.60
+   9  -6   1 2626.83   78.80
+  -5  -6  -3 2522.05   75.66
+ -13   7  -2  210.49    6.31
+   7  -4   117430.59  522.92
+   7   4   3 2193.27   65.80
+  -6  11   1 4255.49  127.66
+ -12   6  -2  650.96   19.53
+   1  -9  -2 1178.32   35.35
+  -6   3  -120581.34  617.44
+   8 -13  -1 1007.90   30.24
+ -10  -4  -4  603.52   18.11
+   6  -3   120536.79  616.10
+  -5  10   1 5663.41  169.90
+  13  -7   2  883.58   26.51
+   6   5   3 4107.16  123.21
+ -10   4  -2 8435.93  253.08
+ -10  12   0 1623.74   48.71
+  -5   2  -126437.72  793.13
+  12  -6   2  804.98   24.15
+  -9  -5  -4  563.66   16.91
+   6 -11  -1 4109.29  123.28
+  -4  -7  -3 1418.01   42.54
+   5  -2   128322.78  849.68
+  -9   3  -2 2276.31   68.29
+  11   3   4  196.07    5.88
+  10  -4   2 6643.04  199.29
+   5   6   3 2285.73   68.57
+  -4   1  -189348.69 2680.46
+   5 -10  -1 2182.83   65.48
+  -4   9   118668.53  560.06
+  10 -12   0 1311.24   39.34
+  -8   2  -2 1726.71   51.80
+  -8  10   0  660.02   19.80
+   4  -1   190346.47 2710.39
+   9  -3   2 3081.05   92.43
+   9   5   4  707.31   21.22
+   8  -2   2  502.02   15.06
+   0  -8  -2 1499.06   44.97
+   4  -9  -1 3758.83  112.76
+  -7   1  -2  607.87   18.24
+  -3   8   1 6989.37  209.68
+ -10   1  -3  249.08    7.47
+  -3  -8  -3 2960.33   88.81
+  -6   8   0 2847.85   85.44
+   7  -1   2 1176.60   35.30
+   3  -8  -122652.57  679.58
+  -5  15   2  933.03   27.99
+  10  -9   1  159.88    4.80
+  -9   0  -3 1626.64   48.80
+   4   7   3 1245.31   37.36
+  -6   0  -2 1404.69   42.14
+  -8  15   1  428.86   12.87
+  -3   0  -1 8630.62  258.92
+   6  -8   0 3205.05   96.15
+ -11   7  -2  837.70   25.13
+   3   0   110354.34  310.63
+   6   0   2 1388.17   41.65
+  12  -8   2  673.42   20.20
+   9   0   3  891.71   26.75
+  -8  -1  -3  315.17    9.45
+ -10   6  -2 4995.62  149.87
+  11  -7   2 1240.39   37.21
+   8  -7   1  757.96   22.74
+ -10  -2  -4  250.70    7.52
+  -7   6  -1 5833.72  175.01
+  -5  -1  -2 3011.66   90.35
+   2  -7  -113547.15  406.41
+  -5  -9  -4  730.28   21.91
+  -6  13   1 1787.02   53.61
+  10  -6   2 4262.26  127.87
+   7  -6   1 8624.88  258.75
+  -7  -2  -3 1722.52   51.68
+   5   1   2 2235.29   67.06
+  -4   6   0 7675.45  230.26
+   3   8   3 3179.19   95.38
+ -10  11  -1  300.78    9.02
+   9  -5   2  388.78   11.66
+   4 -14  -2  837.92   25.14
+ -12  10  -2  284.22    8.53
+  -6   5  -1 4804.12  144.12
+   4  -6   0 6533.22  196.00
+   6 -13  -1 2291.14   68.73
+   7   2   3 1880.89   56.43
+  -8   4  -2 4954.58  148.64
+  -6  -3  -3 7073.64  212.21
+   6  -5   1 3425.08  102.75
+  -4  -2  -2 8004.92  240.15
+  10 -11   1  471.35   14.14
+   8  -4   2 4927.79  147.83
+  12 -10   2  126.89    3.81
+  -9  10  -1  969.40   29.08
+  -9   2  -3  339.69   10.19
+   3 -13  -2 1604.87   48.15
+   9 -10   1  653.35   19.60
+   4   2   2 6580.48  197.41
+  -4 -10  -4  639.21   19.18
+ -10   8  -2 2779.26   83.38
+  -7   3  -2 1688.08   50.64
+  -5   4  -137823.37 1134.70
+   6   3   3 4604.65  138.14
+   5  -4   131204.39  936.13
+   5   9   4   75.76    2.27
+  -6  10   0 1516.54   45.50
+  -2  12   2  568.12   17.04
+   8   4   4  148.68    4.46
+  -4  11   1 1233.99   37.02
+   7  -3   2 1622.43   48.67
+   9  -2   3  877.26   26.32
+  11  -1   4  560.55   16.82
+  10  -8   2 2650.36   79.51
+ -11   6  -3  280.49    8.41
+  -8   1  -3 1039.81   31.19
+   6 -10   0 1773.29   53.20
+  -5  -4  -3  527.14   15.81
+   1 -14  -3  107.01    3.21
+  -9   7  -2  512.33   15.37
+  -2  -9  -3  890.42   26.71
+  -6   2  -2 3584.49  107.53
+   4 -11  -1 1575.26   47.26
+  11  -6   3  123.71    3.71
+  -7   8  -1  466.96   14.01
+   8  -1   3 1992.03   59.76
+   9  -7   2  767.61   23.03
+   1  -6  -1 3924.26  117.73
+   7  -8   1  947.01   28.41
+   6  -2   2 2498.91   74.97
+   8 -14   0  271.43    8.14
+  -8   6  -2 2142.99   64.29
+  -4   3  -179710.29 2391.31
+   4  -3   199999.00 2999.97
+  -7   0  -3 5156.09  154.68
+ -11   3  -4  420.04   12.60
+   2 -12  -2   94.59    2.84
+   5   4   3  653.47   19.60
+  -6  -6  -4  359.79   10.79
+  -3  10   121027.53  630.83
+  -7  13   0  355.12   10.65
+ -10  10  -2  374.42   11.23
+   6 -15  -1  508.06   15.24
+  -3  -3  -2 5057.82  151.73
+   9   1   4  128.22    3.85
+   8  -6   2  791.86   23.76
+  -6   7  -1 2115.42   63.46
+   7   0   3 4892.62  146.78
+ -11   8  -3 1436.89   43.11
+  11  -3   4  574.39   17.23
+  -8  11  -1 3071.28   92.14
+  -5  14   1  531.24   15.94
+   3   3   2 2477.69   74.33
+   4  10   4  632.51   18.98
+  10 -10   2  434.49   13.03
+  -5   1  -2 5804.74  174.14
+   6  -7   1 1864.17   55.93
+   3 -10  -118324.93  549.75
+   9  -4   3  213.63    6.41
+  -7   5  -2 4313.64  129.41
+  -4  -5  -3 1600.50   48.02
+   8 -11   1 3338.60  100.16
+   5  -1   2 6053.53  181.61
+  11  -8   3  755.52   22.67
+  -1  11   2 8993.85  269.82
+   5 -14  -1  429.99   12.90
+  -4   8   0 2356.43   70.69
+  -2   4   0 6026.59  180.80
+   7  -5   2 4226.14  126.78
+  -8   3  -3 2252.09   67.56
+  -6  -1  -3 3655.90  109.68
+   2  -4   0 6255.18  187.66
+   4  -8   0 1448.47   43.45
+   6 -12   0  776.04   23.28
+  -7  10  -1  398.15   11.94
+   8  -3   3 1664.84   49.95
+   8 -16   0  230.68    6.92
+  -5   6  -1 4888.87  146.67
+   6   1   3 4211.59  126.35
+  -8   8  -2 3559.75  106.79
+  -4  13   1   64.12    1.92
+   5  -6   1 7910.71  237.32
+   7 -10   1  997.27   29.92
+   4   5   3 1720.32   51.61
+  -6   4  -2 3659.28  109.78
+ -10   4  -4  254.93    7.65
+  -3   2  -1  739.72   22.19
+   8  -8   2 3982.72  119.48
+  10 -12   2  274.52    8.24
+  -7   2  -3 1531.53   45.95
+  -8  13  -1  872.36   26.17
+   3  -2   1  917.45   27.52
+   6  -4   2 3000.59   90.02
+   1 -11  -2 9358.56  280.76
+  -6   9  -1 1334.99   40.05
+  -4   0  -2 1791.84   53.76
+   1   7   2  911.52   27.35
+   7  -2   3 1520.98   45.63
+  10  -4   4  578.04   17.34
+  -7   7  -2 4503.35  135.10
+  -6  -4  -4 1021.08   30.63
+  -8   5  -3 1561.93   46.86
+   2  -9  -1 1403.72   42.11
+  -6  14   0  781.90   23.46
+   6  -9   1 1600.21   48.01
+   4   0   2 1509.78   45.29
+  -4   5  -173421.56 2202.65
+   7  -7   2 1762.94   52.89
+  -8  10  -2  904.34   27.13
+   4  -5   174633.65 2239.01
+   8  -5   3 1148.89   34.47
+  -9   8  -3  585.08   17.55
+   6 -14   0  758.42   22.75
+  -6   1  -3 1688.89   50.67
+  -5   3  -2  742.92   22.29
+  -3  12   1 1500.12   45.00
+   6   4   4 1162.77   34.88
+  -2  -4  -217275.51  518.27
+   8 -10   2  768.02   23.04
+   2   9   3 1253.37   37.60
+  -4  -8  -4  697.38   20.92
+   5  -3   2 1511.34   45.34
+  -3  -6  -3 1633.83   49.01
+   9  -8   3 1283.85   38.52
+   2 -14  -2   51.90    1.56
+   3 -12  -1 1252.89   37.59
+  -6   6  -2   50.10    1.50
+  -7   4  -3  755.16   22.65
+   6  -1   3 2044.03   61.32
+  -6  11  -1 3908.43  117.25
+  -8   7  -3 3684.98  110.55
+  -7   9  -2 2653.73   79.61
+   6  -6   2  966.82   29.00
+   7  -4   3  496.99   14.91
+   6 -11   1 1734.90   52.05
+   7  -9   2 2205.66   66.17
+   4 -15  -1  172.75    5.18
+   8  -7   3 4476.71  134.30
+   2   4   219143.71  574.31
+  -4  -3  -3 1560.96   46.83
+   6 -16   0   91.44    2.74
+  -5   0  -3 2983.62   89.51
+  -3  -1  -2 4066.58  122.00
+   3   6   3 1271.46   38.14
+   0  10   2 6361.54  190.85
+   0   5   114556.05  436.68
+  -8   4  -4  860.07   25.80
+  -4   2  -2 5937.36  178.12
+  -3   4  -144611.75 1338.35
+  -9   7  -4   14.13     .42
+  -7   6  -3 2671.78   80.15
+  -6   3  -3 1250.66   37.52
+  -8   9  -3 1813.92   54.42
+  -6   8  -2 1384.42   41.53
+  -4   7  -110305.25  309.16
+  -1  13   2 1585.88   47.58
+  -5   5  -2  710.92   21.33
+  -6  13  -1  672.09   20.16
+  -5  10  -1 7526.17  225.79
+  -2   6   025029.70  750.89
+  -3  14   1 1212.26   36.37
+   3  -4   153300.97 1599.03
+   3   1   2 2504.16   75.12
+  -5  15   0 1391.30   41.74
+  -2  11   1 3071.93   92.16
+   1   2   1 1900.69   57.02
+   4  -2   212936.66  388.10
+   4   3   3 1181.73   35.45
+  -4  12   0 1069.36   32.08
+   2  -1   1 2477.25   74.32
+   1  12   3  782.85   23.49
+   5   0   3 2333.19   70.00
+   5   5   4  601.43   18.04
+   4   8   4  604.51   18.14
+  -3   9   0   84.11    2.52
+   5  -5   2  933.41   28.00
+   6  -3   3 1402.09   42.06
+   4  -7   1 8617.91  258.54
+   6  -8   2  811.28   24.34
+   7  -1   4  797.94   23.94
+   1  -3   0 3965.33  118.96
+   2  -6   047016.44 1410.49
+   7  -6   3  609.95   18.30
+   5 -10   1 4101.20  123.04
+   7 -11   2  622.37   18.67
+   8  -9   3  253.09    7.59
+   6 -13   1 1846.28   55.39
+   3 -14  -1 1204.24   36.13
+   1  -8  -1 2554.74   76.64
+   2 -11  -1 1309.88   39.30
+  -7   8  -3  770.35   23.11
+   0  -5  -127592.98  827.79
+  -6  10  -2 2588.39   77.65
+  -6   5  -3 1173.32   35.20
+   4   2   3  503.44   15.10
+  -5   7  -2 1603.20   48.10
+   0 -10  -2 5409.47  162.28
+   7 -13   2  397.29   11.92
+   7  -8   3  358.52   10.76
+   6 -10   2 2213.61   66.41
+  -4  -6  -4  871.81   26.15
+   6 -15   1  332.03    9.96
+   6  -5   3  665.19   19.96
+  -7  15  -2  103.27    3.10
+  -4   9  -1 9574.42  287.23
+  -4  -1  -3  929.30   27.88
+  -4   4  -2 8471.62  254.15
+   5  -7   2 1335.94   40.08
+   4  -9   1 8497.22  254.92
+   4  -4   2 6831.11  204.93
+   4 -14   0  885.44   26.56
+  -3   6  -138489.95 1154.70
+   4   1   3  146.57    4.40
+  -6   7  -3  708.02   21.24
+  -3  -4  -3  814.74   24.44
+  -3   1  -2 2105.38   63.16
+   3  -6   136328.39 1089.85
+   4   6   4  709.51   21.29
+   3 -11   0 3058.98   91.77
+  -2   8   018440.43  553.21
+   6  -7   3 1246.48   37.39
+  -5   4  -3  625.05   18.75
+   3  -1   2 1720.73   51.62
+  -4  11  -1  427.71   12.83
+  -6  14  -2  344.78   10.34
+   2  -8   015761.79  472.85
+   5  -4   3  476.75   14.30
+  -4   6  -2 7996.47  239.89
+  -6   4  -4  519.38   15.58
+  -2   3  -1 3403.97  102.12
+   4 -11   1  921.77   27.65
+   2  -3   1 1247.01   37.41
+   4  -6   212222.29  366.67
+   6 -14   2  411.54   12.35
+  -4  -4  -4 1186.20   35.59
+  -5  11  -2  617.06   18.51
+  -2  -2  -2 5109.56  153.29
+  -5   6  -3 3176.61   95.30
+  -3   8  -1 8336.93  250.11
+   6  -4   4  946.77   28.40
+  -2  -7  -3 1550.19   46.51
+   5 -11   2  750.05   22.50
+   3  -8   1 6373.18  191.20
+   2   2   2 3601.81  108.05
+   5  -6   3 2837.92   85.14
+  -3   3  -2 1781.68   53.45
+  -4   8  -2 2630.70   78.92
+  -2  10   0 2496.57   74.90
+   0  12   2  364.63   10.94
+   2 -15  -1  224.49    6.73
+   3  -3   2 2208.32   66.25
+   4   4   4 1431.32   42.94
+   4  -8   2 3609.55  108.29
+   2 -10   0 2571.13   77.13
+  -1 -12  -3  603.93   18.12
+  -3  10  -111539.43  346.18
+  -5  15  -2 2395.56   71.87
+   4  -3   3  625.54   18.77
+   5  -8   3  775.44   23.26
+  -4  10  -2 7316.85  219.51
+  -2   5  -151745.24 1552.36
+   3   2   3  278.66    8.36
+   3 -10   1 9761.73  292.85
+   2  -5   154726.76 1641.80
+   5 -15   2 2778.19   83.35
+   4 -10   2 7074.10  212.22
+  -3   5  -2  721.11   21.63
+  -4   5  -3  433.62   13.01
+  -2  12   0  823.38   24.70
+  -3  12  -1 1414.53   42.44
+   0 -12  -2  654.43   19.63
+   4  -5   3  850.27   25.51
+   1 -12  -1  274.31    8.23
+   2 -12   0  840.68   25.22
+   3 -12   1  980.26   29.41
+   2   7   3 1070.44   32.11
+  -4   7  -3 1998.03   59.94
+   1   0   1 1960.80   58.82
+  -3   7  -2 1151.64   34.55
+  -2   7  -1 7416.53  222.50
+  -3  14  -1  974.27   29.23
+   3   0   3  842.88   25.29
+   4  -7   3 1714.10   51.42
+   2  -7   1 4225.59  126.77
+   5 -13   3   97.32    2.92
+   4 -14   2  682.48   20.47
+   3 -14   1  964.59   28.94
+   0  -7  -1 4682.34  140.47
+  -4   4  -4 1167.63   35.03
+  -2   9  -1  623.32   18.70
+   3  -9   2  501.20   15.04
+  -2   2  -2 2386.21   71.59
+  -3  11  -2 3887.91  116.64
+   2  -9   1 1533.28   46.00
+   2  -2   2 4422.91  132.69
+  -3   4  -3 1196.33   35.89
+  -4   6  -4 1023.15   30.69
+   4  -4   4  830.47   24.91
+  -2  11  -1  923.42   27.70
+   3 -11   2 2748.14   82.44
+  -3  13  -2  818.99   24.57
+   0 -14  -2  472.94   14.19
+   3  -4   3  735.44   22.06
+  -3   6  -3 4341.55  130.25
+   2   5   3  368.01   11.04
+  -2   4  -2 4184.68  125.54
+   4  -6   4  937.25   28.12
+   2 -11   1 1740.24   52.21
+   2  -4   2 4930.05  147.90
+   3  -6   3 2388.17   71.65
+  -2   6  -2 3621.87  108.66
+   2  -6   2 4074.22  122.23
+  -1   4  -190201.10 2706.03
+  -1  -5  -2 4693.57  140.81
+  -2   8  -2 1243.23   37.30
+   1  -4   189868.84 2696.07
+  -2  -1  -3 1056.36   31.69
+   0  -9  -1 2155.06   64.65
+   2  -8   2  179.54    5.39
+  -2  10  -2 4246.76  127.40
+  -1   6  -1 1581.57   47.45
+   2 -10   2 3421.74  102.65
+   1  -6   1 2140.89   64.23
+   0 -11  -1  815.52   24.47
+  -2   3  -3  762.59   22.88
+  -1   8  -1 1419.57   42.59
+   0  15   1  120.29    3.61
+   1  -8   1  922.70   27.68
+  -2   7  -3 1754.37   52.63
+   1   5   2 3941.19  118.24
+  -1  -3  -2 3118.33   93.55
+   2  -7   3 1157.65   34.73
+  -1  -7  -2  866.90   26.01
+   2  -9   3 1284.41   38.53
+  -2  -4  -4  861.50   25.84
+   1   3   2 2477.31   74.32
+  -2   0  -4  470.77   14.12
+  -2  -2  -4  479.24   14.38
+  -1  -1  -2 5045.18  151.36
+   1   1   2 1351.47   40.54
+  -1   1  -2 3144.95   94.35
+   0   4   025845.77  775.37
+   1  -1   2 4303.50  129.11
+  -1  11  -2  664.13   19.92
+  -1   9  -2 2145.79   64.37
+  -1   7  -2 1152.30   34.57
+  -1  13  -2  268.20    8.05
+   0  -8   011407.90  342.24
+   0  12   0  599.88   18.00
+   1  -3   2 1730.84   51.93
+   0   8   010071.19  302.14
+   1  -5   2 2074.00   62.22
+   0  10   0 1112.99   33.39
+   0   6   010685.97  320.58
+   1  13   2  893.48   26.80
+   2   0   4  776.17   23.29
+   0  -4   058945.43 1768.36
+   0  -6   029555.48  886.66
+   1   9   2 1533.13   45.99
+   2  -4   4  859.67   25.79
+   1  -7   2 1586.91   47.61
+   1  -9   2  841.63   25.25
+   1  11   2  784.25   23.53
+   1 -11   2 1515.66   45.47
+   1 -13   2 1266.79   38.00
+   1 -15   2 1192.14   35.76
+   0 -10   0 1892.36   56.77
+   0 -12   0  936.66   28.10
+   0  -2   032941.71  988.25
+  -1   6  -3 5057.61  151.73
+   1  -6   3 2734.50   82.03
+  -1 -13  -2 1343.30   40.30
+   1  -4   3  385.22   11.56
+   0   9  -1 1176.40   35.29
+  -1 -11  -2  951.73   28.55
+   0   7  -1 4513.83  135.41
+   0  -9   1  699.35   20.98
+   0  12  -2  150.10    4.50
+   0  -7   1 4932.15  147.96
+   0  10  -2 3911.46  117.34
+   0   5  -118705.36  561.16
+   0  -5   128903.51  867.11
+   0   8  -2  454.68   13.64
+   0 -10   2 3162.74   94.88
+   1  14   0   65.52    1.97
+   0   9  -3  214.44    6.43
+   0  -8   2  355.90   10.68
+  -1  -3  -4  257.63    7.73
+  -1  -6  -3  812.32   24.37
+   0   3  -1 8085.47  242.56
+   0  -3   1 7408.21  222.25
+   0   7  -3 2966.32   88.99
+   0  -6   2  534.49   16.03
+   0  -9   3  357.55   10.73
+   0   4  -2  663.75   19.91
+   0  -7   3 2078.29   62.35
+   0   5  -3 1163.20   34.90
+   0  -4   2 1547.85   46.44
+   1  13  -2  689.36   20.68
+   0  -5   3 2896.97   86.91
+   0   3  -3  839.61   25.19
+   0   1  -1 1613.43   48.40
+   1  11  -2 3632.58  108.98
+  -1 -13   2  338.21   10.15
+   1   6   3 1086.22   32.59
+   0  -1   1 1301.68   39.05
+   0   1  -3  429.53   12.89
+   1   8  -1 3086.67   92.60
+  -1  -8  -1 2975.51   89.27
+  -1  -8   1 2198.19   65.95
+  -1  -8   3  506.45   15.19
+   1   7  -2  215.46    6.46
+   0  -1  -3  758.49   22.75
+   1   6  -3 1635.17   49.06
+  -1  -7   2  751.39   22.54
+  -1  -6   3 1478.22   44.35
+   1   6  -1 6139.72  184.19
+   1   5  -2 2832.07   84.96
+  -1  -6   1 6057.53  181.73
+  -1  -5   2 3487.41  104.62
+   2  10  -2 2979.57   89.39
+   2  11  -1  473.66   14.21
+   0  -3  -3  240.91    7.23
+  -2 -12   0  187.42    5.62
+  -2 -10   2 2325.90   69.78
+  -3 -14   3  203.66    6.11
+   0  -1  -1 1564.59   46.94
+   2   7  -3  767.40   23.02
+   1   4  -152143.97 1564.32
+   0   1   1  362.88   10.89
+  -1  -4   157536.16 1726.08
+  -2  -7   3 1709.22   51.28
+  -3 -14   1  685.85   20.58
+   2   6  -2  708.62   21.26
+  -3 -11   2 1196.03   35.88
+  -2  -6   2 1004.94   30.15
+   2   7  -1 7053.45  211.60
+   3   8  -3  974.27   29.23
+   1   1  -2 4212.18  126.37
+  -2  -7   1 9245.78  277.37
+  -1  -1   2 4261.46  127.84
+  -3  -8   3 1668.49   50.05
+   2   8   0 4967.13  149.01
+  -3  -9   2  685.73   20.57
+   3  10  -1 1662.80   49.88
+  -2  -8   0  334.00   10.02
+   3   6  -3  748.97   22.47
+   2   4  -2 7477.22  224.32
+  -2  -4   2 8713.09  261.39
+  -3  -6   3  739.58   22.19
+   3   7  -2  580.25   17.41
+   4  10  -2 1088.62   32.66
+  -3  -7   2  290.76    8.72
+   2   5  -1 9800.21  294.01
+  -2  -5   114872.85  446.19
+  -4 -10   2 1055.06   31.65
+   3   8  -1 1652.73   49.58
+  -3  -8   1 1547.06   46.41
+  -4 -11   1 1063.67   31.91
+   2   2  -2 1492.80   44.78
+   3   5  -2 1295.76   38.87
+   4   8  -2 1511.44   45.34
+   2   6   033692.92 1010.79
+  -2  -2   2 1800.17   54.01
+  -3  -5   2  709.00   21.27
+  -4  -8   2 1448.34   43.45
+  -2  -6   0 1688.09   50.64
+   4   9  -1  816.85   24.51
+   3   6  -1 4099.56  122.99
+  -4  -9   1 1447.69   43.43
+  -3  -6   1 3646.76  109.40
+   2   3  -1  813.07   24.39
+   4   7  -1 5308.10  159.24
+  -4  -7   1 4869.96  146.10
+  -5  -7   2 1224.03   36.72
+   3   4  -137028.20 1110.85
+  -4  -4   2 1888.80   56.66
+  -6 -11   1  125.35    3.76
+  -3  -4   138669.75 1160.09
+   0   9   4  383.53   11.51
+   2   4   0 4058.65  121.76
+  -2  -4   0 2239.20   67.18
+   4   5  -1 5544.81  166.34
+;
+_shelx_hkl_checksum                76676
+_olex2_exptl_crystal_mounting_method 
+ 'copper grid coated with ultrathin carbon film'
+_olex2_submission_special_instructions  'No special instructions were received'
+# start Validation Reply Form
+_vrf_REFNR01_COF-300-PMMA_Cryo
+;
+PROBLEM: Ratio of reflections to parameters is < 6 for a
+RESPONSE: Due to relative lower resultion and completeness of electron diffraction data
+;
+_vrf_RINTA01_COF-300-PMMA_Cryo
+;
+PROBLEM: The value of Rint is greater than 0.25
+RESPONSE: Due to the dynamical effect of electron diffraction
+;
+_vrf_THETM01_COF-300-PMMA_Cryo
+;
+PROBLEM: The value of sine(theta_max)/wavelength is less than 0.550
+RESPONSE: Due to the very short wavelength of electron
+;
+_vrf_PLAT020_COF-300-PMMA_Cryo
+;
+PROBLEM: The Value of Rint is Greater Than 0.12 .........      0.274 Report
+RESPONSE: Due to the dynamical effect of electron diffraction
+;
+_vrf_PLAT029_COF-300-PMMA_Cryo
+;
+PROBLEM: _diffrn_measured_fraction_theta_full value Low .      0.572 Why?  
+RESPONSE: Due to beam senstivity of sample and the limitation of sample tilting in TEM
+;
+_vrf_PLAT051_COF-300-PMMA_Cryo
+;
+PROBLEM: Mu(calc) and Mu(CIF) Ratio Differs from 1.0 by .      84.99 %     
+RESPONSE: Due to different atomic scattering factor for electron
+;
+_vrf_PLAT082_COF-300-PMMA_Cryo
+;
+PROBLEM: High R1 Value ..................................       0.40 Report
+RESPONSE: Refinement is only based on kinematical assumption and with relatively lower resolution
+;
+_vrf_PLAT084_COF-300-PMMA_Cryo
+;
+PROBLEM: High wR2 Value (i.e. > 0.25) ...................       0.75 Report
+RESPONSE: Refinement is only based on kinematical assumption and with relatively lower resolution
+;
+_vrf_PLAT088_COF-300-PMMA_Cryo
+;
+PROBLEM: Poor Data / Parameter Ratio ....................       4.22 Note  
+RESPONSE: Due to relatively lower resolution and completeness of electron diffraction data
+;
+_vrf_PLAT183_COF-300-PMMA_Cryo
+;
+PROBLEM: Missing _cell_measurement_reflns_used Value ....     Please Do !  
+RESPONSE: ...
+;
+_vrf_PLAT184_COF-300-PMMA_Cryo
+;
+PROBLEM: Missing _cell_measurement_theta_min Value ......     Please Do !  
+RESPONSE: Not available in 3D EDT
+;
+_vrf_PLAT185_COF-300-PMMA_Cryo
+;
+PROBLEM: Missing _cell_measurement_theta_max Value ......     Please Do !  
+RESPONSE: Not available in 3D EDT
+;
+_vrf_PLAT340_COF-300-PMMA_Cryo
+;
+PROBLEM: Low Bond Precision on  C-C Bonds ...............    0.07357 Ang.  
+RESPONSE: Due to relatively lower resolution of electron diffraction data
+;
+_vrf_PLAT602_COF-300-PMMA_Cryo
+;
+PROBLEM: VERY LARGE Solvent Accessible VOID(S) in Structure        ! Info  
+RESPONSE: It is porous and the guest molecules are too disorder to be modeled
+;
+_vrf_PLAT660_COF-300-PMMA_Cryo
+;
+PROBLEM: No Valid _diffrn_radiation_type Value Reported .     Please Do !  
+RESPONSE: electron
+;
+_vrf_PLAT911_COF-300-PMMA_Cryo
+;
+PROBLEM: Missing FCF Refl Between Thmin & STh/L=    0.333        174 Report
+RESPONSE: Due to the relatively lower resolution data
+;
+# end Validation Reply Form

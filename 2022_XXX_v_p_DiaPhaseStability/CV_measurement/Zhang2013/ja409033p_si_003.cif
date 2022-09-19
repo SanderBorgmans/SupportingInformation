@@ -1,0 +1,115 @@
+data_COF-320-RT-RED
+_audit_creation_method            'Materials Studio'
+_symmetry_space_group_name_H-M    'IMMA'
+_symmetry_Int_Tables_number       74
+_symmetry_cell_setting            orthorhombic
+loop_
+_symmetry_equiv_pos_as_xyz
+  x,y,z
+  -x,-y+1/2,z
+  -x,y+1/2,-z
+  x,-y,-z
+  -x,-y,-z
+  x,y+1/2,-z
+  x,-y+1/2,z
+  -x,y,z
+  x+1/2,y+1/2,z+1/2
+  -x+1/2,-y,z+1/2
+  -x+1/2,y,-z+1/2
+  x+1/2,-y+1/2,-z+1/2
+  -x+1/2,-y+1/2,-z+1/2
+  x+1/2,y,-z+1/2
+  x+1/2,-y,z+1/2
+  -x+1/2,y+1/2,z+1/2
+_cell_length_a                    27.93
+_cell_length_b                    31.31
+_cell_length_c                    7.89
+_cell_angle_alpha                 90.0000
+_cell_angle_beta                  90.0000
+_cell_angle_gamma                 90.0000
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+C1     C     0.54325   0.30579   0.39595   0.00000  Uiso   1.00
+C2     C     0.54325   0.34088   0.28666   0.00000  Uiso   1.00
+C3     C     0.43751   0.21142   0.76889   0.00000  Uiso   1.00
+C4     C     0.40000   0.21144   0.88614   0.00000  Uiso   1.00
+H5     H     0.57729   0.29225   0.43221   0.00000  Uiso   1.00
+H6     H     0.57692   0.35365   0.24119   0.00000  Uiso   1.00
+H7     H     0.45162   0.18099   0.72850   0.00000  Uiso   1.00
+H8     H     0.38627   0.18140   0.93375   0.00000  Uiso   1.00
+C9     C     0.54313   0.43610  -0.23375   0.00000  Uiso   1.00
+C10    C     0.54328   0.46705  -0.36147   0.00000  Uiso   1.00
+C11    C     0.30936   0.21154   1.44819   0.00000  Uiso   1.00
+C12    C     0.28039   0.21140   1.59275   0.00000  Uiso   1.00
+H13    H     0.57685   0.42379  -0.18650   0.00000  Uiso   1.00
+H14    H     0.57800   0.47720  -0.40464   0.00000  Uiso   1.00
+H15    H     0.32122   0.18146   1.39476   0.00000  Uiso   1.00
+H16    H     0.27099   0.18044   1.64152   0.00000  Uiso   1.00
+C17    C     0.50000   0.25000   0.58179   0.00000  Uiso   1.00
+C18    C     0.50000   0.28888   0.46032   0.00000  Uiso   1.00
+C19    C     0.50000   0.35897   0.23397   0.00000  Uiso   1.00
+N20    N     0.50000   0.39361   0.11596   0.00000  Uiso   1.00
+C21    C     0.50000   0.48339  -0.42984   0.00000  Uiso   1.00
+C22    C     0.50000   0.42066  -0.16923   0.00000  Uiso   1.00
+C23    C     0.50000   0.38593  -0.04518   0.00000  Uiso   1.00
+H24    H     0.50000   0.35344  -0.09004   0.00000  Uiso   1.00
+C25    C     0.45630   0.25000   0.70359   0.00000  Uiso   1.00
+C26    C     0.38105   0.25000   0.94477   0.00000  Uiso   1.00
+N27    N     0.34492   0.25000   1.07269   0.00000  Uiso   1.00
+C28    C     0.26529   0.25000   1.67038   0.00000  Uiso   1.00
+C29    C     0.32385   0.25000   1.37545   0.00000  Uiso   1.00
+C30    C     0.35851   0.25000   1.23637   0.00000  Uiso   1.00
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_ccdc_geom_bond_type
+C1     C2      1.395   .     A
+C1     H5      1.078   .     S
+C1     C18     1.411   .     A
+C2     H6      1.081   .     S
+C2     C19     1.395   .     A
+C3     C4      1.396   .     A
+C3     H7      1.078   .     S
+C3     C25     1.413   .     A
+C4     H8      1.082   .     S
+C4     C26     1.395   .     A
+C9     C10     1.397   .     A
+C9     H13     1.082   .     S
+C9     C22     1.392   .     A
+C10    H14     1.074   .     S
+C10    C21     1.417   .     A
+C11    C12     1.397   .     A
+C11    H15     1.083   .     S
+C11    C29     1.392   .     A
+C12    H16     1.074   .     S
+C12    C28     1.417   .     A
+C17    C18     1.548   .     S
+C17    C18     1.548   2_655 S
+C17    C25     1.551   .     S
+C17    C25     1.551   2_655 S
+C18    C1      1.411   8_655 A
+C19    C2      1.395   8_655 A
+C19    N20     1.428   .     S
+N20    C23     1.293   .     D
+C21    C10     1.417   8_655 A
+C21    C21     1.518   4_564 S
+C22    C9      1.392   8_655 A
+C22    C23     1.462   .     S
+C23    H24     1.076   .     S
+C25    C3      1.413   7     A
+C26    C4      1.395   7     A
+C26    N27     1.425   .     D
+N27    C30     1.345   .     S
+C28    C12     1.417   7     A
+C28    C28     1.517   11_558 S
+C29    C11     1.392   7     A
+C29    C30     1.461   .     S

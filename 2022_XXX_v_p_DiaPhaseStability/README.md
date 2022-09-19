@@ -305,10 +305,10 @@ Each structure is labelled as follows: `dia-cX_block1_block2`, where `X` indicat
 
 ### STEP 2b - Structure optimization
 
-Once each structure is generated, it is relaxed using the following Yaff protocol. First, the system is optimized using the UFF force field to push atoms that are placed closely together apart (e.g. in high degrees of interpenetration) and prevent collapse. Secondly, the structure is optimized with the QuickFF force field.
+Once each structure is generated, it is relaxed using the following Yaff protocol. First, the system is optimized using the UFF force field to push atoms that are placed closely together apart (e.g. in high degrees of interpenetration) and prevent collapse. Secondly, the structure is optimized with the QuickFF force field. When appropriate (for COF-300 and COF-320) the `pars_polysix.txt` were added to the `pars_cluster.txt` force field for the optimization and subsequent simulations.
 
 **input**
-`dia-cX_block1_block2.chk`, `pars_cluster.txt`, `pars_uff.txt`
+`dia-cX_block1_block2.chk`, `pars_cluster.txt`, `pars_uff.txt`(, `pars_polysix.txt`)
 
 **command line**
 `qsub opt.sh` or `python opt.py`
@@ -437,3 +437,15 @@ Finally, after obtaining the 2D free energy profile, a minimal free energy path 
 All the `.yml` files contain user readable information of the different (meta)stable phases, how they were identified by the user, the transition barriers, and their relevant CV paths.
 
 The user-prompted phase identification consists of an image of the minima identified by the MEPSA code superimposed on the FES image, where the minima have been clustered, and the used has to identify which of the clusters corresponds to the 'SQ', 'sq', and 'rect' phases.
+
+
+# Addendum
+An additional folder `CV_measurement` was added in accordance with the reported collective variables of Table 1 in the Supporting Information, with a subfolder per paper. These folders contain all the reference structures from literature and the scripts to calculate the 'experimental' values for our collective variables.
+
+**input**
+`example.chk`
+
+**command line**
+`python measure_CV.py example.chk`
+
+As output, the relevant information is printed to the terminal. The conversion of the cif files to chk files was performed with CON3F. As the collective variable requires atom types to be specified, `define_atomtypes_nohess.py` scripts are present per material which determine and store the atom types in the chk file. For the NPN COFs an additional script `adapt_chk.py` is provided, as there certain atoms needed to be replaced by their periodic equivalent for the CV function to work. The lattice vectors of each of these materials can be readily accessed from the cif or chk files.
