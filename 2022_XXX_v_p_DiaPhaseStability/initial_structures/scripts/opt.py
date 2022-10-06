@@ -33,7 +33,7 @@ def get_lammps_kwargs(natom):
 
 if __name__ == '__main__':
     fn_sys = parse()
-    fn_cluster = 'pars_cluster.txt'
+    fn_cluster = ['pars_cluster.txt'] # add polysix where necessary
     fn_uff = 'pars_uff.txt'
     fn_out = fn_sys.replace('.chk', '_opt.chk')
     ff_kwargs = get_ff_kwargs()
