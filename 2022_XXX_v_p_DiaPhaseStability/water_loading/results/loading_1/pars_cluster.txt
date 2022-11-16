@@ -1,0 +1,281 @@
+# Bond stretch
+# ============
+#
+# Mathematical form:
+# E_BONDHARM = 0.5*K*(r - R0)**2
+#
+
+BONDHARM:UNIT  K kjmol/A**2
+BONDHARM:UNIT  R0 A
+
+#---------------------------------------------------------------------------------------------
+# KEY         label0                label1                 K                 R0               
+#---------------------------------------------------------------------------------------------
+BONDHARM:PARS C_C2N_H2C3_TAM        C_HC2_HC2N_TAM         3.8379079717e+03  1.4012477017e+00 
+BONDHARM:PARS C_HC2_HC2N_TAM        C_HC2_HC3_TAM          4.0660859644e+03  1.3900544598e+00 
+BONDHARM:PARS C_C3_H2C5_TAM         C_C4_C8_TAM            2.1987594502e+03  1.5516957089e+00 
+BONDHARM:PARS C_C3_H2C5_TAM         C_HC2_HC3_TAM          3.7839289007e+03  1.3949079019e+00 
+BONDHARM:PARS C_HC2_HC2N_TAM        H1_C_C2_TAM            3.3329127941e+03  1.0844689465e+00 
+BONDHARM:PARS C_HC2_HC3_TAM         H0_C_C2_TAM            3.3569052250e+03  1.0817440227e+00 
+BONDHARM:PARS C_C2N_H2C3_TAM        N_C2_HC3_TAM           3.5464596712e+03  1.4098994085e+00 
+BONDHARM:PARS C_C3_H3C2N_BDC        C_HC2_HC3_BDC          3.7951541026e+03  1.3997243891e+00 
+BONDHARM:PARS C_HC2_HC3_BDC         C_HC2_HC3_BDC          4.1815425713e+03  1.3866117229e+00 
+BONDHARM:PARS C_HC2_HC3_BDC         H_C_C2_BDC             3.3351036374e+03  1.0828095236e+00 
+BONDHARM:PARS C_C3_H3C2N_BDC        C_HCN_C3_BDC           3.1136091168e+03  1.4683464255e+00 
+BONDHARM:PARS C_HCN_C3_BDC          H_C_CN_BDC             2.9960531714e+03  1.0970087755e+00 
+BONDHARM:PARS C_HCN_C3_BDC          N_C2_HC3_TAM           6.3996666899e+03  1.2792174940e+00 
+
+
+
+# Angle bend
+# ==========
+#
+# Mathematical form:
+# E_BENDAHARM = 0.5*K*(theta - THETA0)**2
+#
+
+BENDAHARM:UNIT  K kjmol/rad**2
+BENDAHARM:UNIT  THETA0 deg
+
+#--------------------------------------------------------------------------------------------------------------------
+# KEY          label0                label1                label2                 K                 THETA0           
+#--------------------------------------------------------------------------------------------------------------------
+BENDAHARM:PARS C_C3_H2C5_TAM         C_C4_C8_TAM           C_C3_H2C5_TAM          6.0049816851e+02  1.0930371753e+02 
+BENDAHARM:PARS C_HC2_HC2N_TAM        C_C2N_H2C3_TAM        N_C2_HC3_TAM           4.9583748380e+02  1.2124904901e+02 
+BENDAHARM:PARS C_HC2_HC2N_TAM        C_C2N_H2C3_TAM        C_HC2_HC2N_TAM         5.5117902973e+02  1.1770112593e+02 
+BENDAHARM:PARS C_C2N_H2C3_TAM        C_HC2_HC2N_TAM        C_HC2_HC3_TAM          5.8615290981e+02  1.2095349073e+02 
+BENDAHARM:PARS C_C2N_H2C3_TAM        C_HC2_HC2N_TAM        H1_C_C2_TAM            2.9944654867e+02  1.1939316894e+02 
+BENDAHARM:PARS C_HC2_HC3_TAM         C_HC2_HC2N_TAM        H1_C_C2_TAM            2.9349850960e+02  1.1882084523e+02 
+BENDAHARM:PARS C_C3_H2C5_TAM         C_HC2_HC3_TAM         C_HC2_HC2N_TAM         5.7612687313e+02  1.2196468321e+02 
+BENDAHARM:PARS C_C3_H2C5_TAM         C_HC2_HC3_TAM         H0_C_C2_TAM            2.9315386424e+02  1.1803600707e+02 
+BENDAHARM:PARS C_HC2_HC2N_TAM        C_HC2_HC3_TAM         H0_C_C2_TAM            2.8950017964e+02  1.1937183965e+02 
+BENDAHARM:PARS C_C4_C8_TAM           C_C3_H2C5_TAM         C_HC2_HC3_TAM          3.8952432630e+02  1.2050401452e+02 
+BENDAHARM:PARS C_HC2_HC3_TAM         C_C3_H2C5_TAM         C_HC2_HC3_TAM          5.5598929813e+02  1.1681872766e+02 
+BENDAHARM:PARS C_HC2_HC3_BDC         C_C3_H3C2N_BDC        C_HCN_C3_BDC           4.7485707021e+02  1.2015921766e+02 
+BENDAHARM:PARS C_HC2_HC3_BDC         C_C3_H3C2N_BDC        C_HC2_HC3_BDC          5.5767734442e+02  1.1882624602e+02 
+BENDAHARM:PARS C_C3_H3C2N_BDC        C_HC2_HC3_BDC         H_C_C2_BDC             2.9321236492e+02  1.1783726677e+02 
+BENDAHARM:PARS C_HC2_HC3_BDC         C_HC2_HC3_BDC         H_C_C2_BDC             2.8717269779e+02  1.2012984992e+02 
+BENDAHARM:PARS C_C3_H3C2N_BDC        C_HC2_HC3_BDC         C_HC2_HC3_BDC          5.7464025511e+02  1.2084678656e+02 
+BENDAHARM:PARS C_C3_H3C2N_BDC        C_HCN_C3_BDC          H_C_CN_BDC             3.1902657027e+02  1.1663242476e+02 
+BENDAHARM:PARS C_C3_H3C2N_BDC        C_HCN_C3_BDC          N_C2_HC3_TAM           6.3795390613e+02  1.2198831250e+02 
+BENDAHARM:PARS H_C_CN_BDC            C_HCN_C3_BDC          N_C2_HC3_TAM           3.2110617801e+02  1.2070103885e+02 
+BENDAHARM:PARS C_HCN_C3_BDC          N_C2_HC3_TAM          C_C2N_H2C3_TAM         6.2232144267e+02  1.1834309466e+02 
+
+
+
+# Torsion
+# =======
+#
+# Mathematical form:
+# E_TORSION = 0.5*A*(1-cos(M*(phi - PHI0)))
+#
+
+TORSION:UNIT  A kjmol
+TORSION:UNIT  PHI0 deg
+
+#-------------------------------------------------------------------------------------------------------------------------------------------
+# KEY        label0                label1                label2                label3                M   A                 PHI0             
+#-------------------------------------------------------------------------------------------------------------------------------------------
+TORSION:PARS C_HC2_HC3_TAM         C_HC2_HC2N_TAM        C_C2N_H2C3_TAM        N_C2_HC3_TAM          2   4.2384196561e+01  0.0000000000e+00 
+TORSION:PARS C_HC2_HC2N_TAM        C_C2N_H2C3_TAM        C_HC2_HC2N_TAM        C_HC2_HC3_TAM         2   2.6403827280e+01  0.0000000000e+00 
+TORSION:PARS H1_C_C2_TAM           C_HC2_HC2N_TAM        C_C2N_H2C3_TAM        N_C2_HC3_TAM          2   1.5854899917e+01  0.0000000000e+00 
+TORSION:PARS C_HC2_HC2N_TAM        C_C2N_H2C3_TAM        C_HC2_HC2N_TAM        H1_C_C2_TAM           2   2.1718376287e+01  0.0000000000e+00 
+TORSION:PARS C_C2N_H2C3_TAM        C_HC2_HC2N_TAM        C_HC2_HC3_TAM         C_C3_H2C5_TAM         2   3.0565640374e+01  0.0000000000e+00 
+TORSION:PARS C_C3_H2C5_TAM         C_HC2_HC3_TAM         C_HC2_HC2N_TAM        H1_C_C2_TAM           2   3.4913794988e+01  0.0000000000e+00 
+TORSION:PARS C_C2N_H2C3_TAM        C_HC2_HC2N_TAM        C_HC2_HC3_TAM         H0_C_C2_TAM           2   3.4556765000e+01  0.0000000000e+00 
+TORSION:PARS H0_C_C2_TAM           C_HC2_HC3_TAM         C_HC2_HC2N_TAM        H1_C_C2_TAM           2   1.9375197681e+01  0.0000000000e+00 
+TORSION:PARS C_C4_C8_TAM           C_C3_H2C5_TAM         C_HC2_HC3_TAM         H0_C_C2_TAM           2   1.6485432881e+01  0.0000000000e+00 
+TORSION:PARS C_C4_C8_TAM           C_C3_H2C5_TAM         C_HC2_HC3_TAM         C_HC2_HC2N_TAM        2   4.1319560473e+01  0.0000000000e+00 
+TORSION:PARS C_HC2_HC3_TAM         C_C3_H2C5_TAM         C_HC2_HC3_TAM         H0_C_C2_TAM           2   2.5495172740e+01  0.0000000000e+00 
+TORSION:PARS C_HC2_HC2N_TAM        C_HC2_HC3_TAM         C_C3_H2C5_TAM         C_HC2_HC3_TAM         2   2.8129019724e+01  0.0000000000e+00 
+TORSION:PARS C_HCN_C3_BDC          C_C3_H3C2N_BDC        C_HC2_HC3_BDC         H_C_C2_BDC            2   1.8586921414e+01  0.0000000000e+00 
+TORSION:PARS C_HC2_HC3_BDC         C_C3_H3C2N_BDC        C_HC2_HC3_BDC         H_C_C2_BDC            2   2.6187295550e+01  0.0000000000e+00 
+TORSION:PARS C_HC2_HC3_BDC         C_HC2_HC3_BDC         C_C3_H3C2N_BDC        C_HCN_C3_BDC          2   3.8309144938e+01  0.0000000000e+00 
+TORSION:PARS C_HC2_HC3_BDC         C_C3_H3C2N_BDC        C_HC2_HC3_BDC         C_HC2_HC3_BDC         2   3.0070247961e+01  0.0000000000e+00 
+TORSION:PARS C_C3_H3C2N_BDC        C_HC2_HC3_BDC         C_HC2_HC3_BDC         C_C3_H3C2N_BDC        2   3.3311475681e+01  0.0000000000e+00 
+TORSION:PARS C_C3_H3C2N_BDC        C_HC2_HC3_BDC         C_HC2_HC3_BDC         H_C_C2_BDC            2   3.5576103828e+01  0.0000000000e+00 
+TORSION:PARS H_C_C2_BDC            C_HC2_HC3_BDC         C_HC2_HC3_BDC         H_C_C2_BDC            2   1.9267542146e+01  0.0000000000e+00 
+TORSION:PARS C_HC2_HC3_BDC         C_C3_H3C2N_BDC        C_HCN_C3_BDC          H_C_CN_BDC            2   1.0139301582e+01  0.0000000000e+00 
+TORSION:PARS C_HC2_HC3_BDC         C_C3_H3C2N_BDC        C_HCN_C3_BDC          N_C2_HC3_TAM          2   1.3442334633e+01  0.0000000000e+00 
+TORSION:PARS C_C3_H3C2N_BDC        C_HCN_C3_BDC          N_C2_HC3_TAM          C_C2N_H2C3_TAM        2   8.1212960138e+01  0.0000000000e+00 
+TORSION:PARS C_C2N_H2C3_TAM        N_C2_HC3_TAM          C_HCN_C3_BDC          H_C_CN_BDC            2   4.7534525498e+01  0.0000000000e+00 
+
+
+# TORSCPOLYSIX
+#---------
+TORSCPOLYSIX:UNIT  C1 kjmol
+TORSCPOLYSIX:UNIT  C2 kjmol
+TORSCPOLYSIX:UNIT  C3 kjmol
+TORSCPOLYSIX:UNIT  C4 kjmol
+TORSCPOLYSIX:UNIT  C5 kjmol
+TORSCPOLYSIX:UNIT  C6 kjmol
+
+TORSCPOLYSIX:PARS  C_HCN_C3_BDC          N_C2_HC3_TAM          C_C2N_H2C3_TAM        C_HC2_HC2N_TAM   0.0000000000e+00  -1.6925491260e+01   0.0000000000e+00   1.1618666626e+01   0.0000000000e+00  -7.3410016573e+00
+
+
+
+# Inversion
+# =========
+#
+# Mathematical form:
+# E_OOPDIST = 0.5*K*(d - D0)**2
+#
+
+OOPDIST:UNIT  K kjmol/A**2
+OOPDIST:UNIT  D0 A
+
+#----------------------------------------------------------------------------------------------------------------------------------------
+# KEY        label0                label1                label2                label3                 K                 D0               
+#----------------------------------------------------------------------------------------------------------------------------------------
+OOPDIST:PARS C_HC2_HC2N_TAM        C_HC2_HC2N_TAM        N_C2_HC3_TAM          C_C2N_H2C3_TAM         5.4911397050e+02  5.8756194893e-02 
+OOPDIST:PARS C_C2N_H2C3_TAM        C_HC2_HC3_TAM         H1_C_C2_TAM           C_HC2_HC2N_TAM         1.6727583846e+02  6.1627136991e-03 
+OOPDIST:PARS C_C3_H2C5_TAM         C_HC2_HC2N_TAM        H0_C_C2_TAM           C_HC2_HC3_TAM          1.8923500827e+02  9.8975804761e-03 
+OOPDIST:PARS C_C4_C8_TAM           C_HC2_HC3_TAM         C_HC2_HC3_TAM         C_C3_H2C5_TAM          3.8787590097e+02  1.4219281263e-02 
+OOPDIST:PARS C_HC2_HC3_BDC         C_HC2_HC3_BDC         C_HCN_C3_BDC          C_C3_H3C2N_BDC         2.0485620820e+02  1.9353221275e-02 
+OOPDIST:PARS C_C3_H3C2N_BDC        C_HC2_HC3_BDC         H_C_C2_BDC            C_HC2_HC3_BDC          1.6458600011e+02  6.1161137779e-04 
+OOPDIST:PARS C_C3_H3C2N_BDC        H_C_CN_BDC            N_C2_HC3_TAM          C_HCN_C3_BDC           6.0142446822e+02  3.4573059737e-03 
+
+
+
+# Cross terms
+# ===========
+#
+# Mathematical form:
+# E_CROSS = KSS * (r0-R0) * (r1-R1)
+#           + KBS0 * (r0 - R0) * (theta - THETA0)
+#           + KBS1 * (r1 - R1) * (theta - THETA0)
+#
+
+CROSS:UNIT  KSS kjmol/angstrom**2
+CROSS:UNIT  KBS0 kjmol/(angstrom*rad)
+CROSS:UNIT  KBS1 kjmol/(angstrom*rad)
+CROSS:UNIT  R0 angstrom
+CROSS:UNIT  R1 angstrom
+CROSS:UNIT  THETA0 deg
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# KEY      label0                label1                label2                 KSS               KBS0              KBS1              R0                R1                THETA0           
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CROSS:PARS C_C3_H2C5_TAM         C_C4_C8_TAM           C_C3_H2C5_TAM          1.6187577695e+02  1.6063846150e+02  1.6063846150e+02  1.5516957089e+00  1.5516957089e+00  1.0930371753e+02 
+CROSS:PARS C_HC2_HC2N_TAM        C_C2N_H2C3_TAM        N_C2_HC3_TAM           4.6821448975e+02  1.2065551208e+02  3.8225479999e+02  1.4012477017e+00  1.4098994085e+00  1.2124904901e+02 
+CROSS:PARS C_HC2_HC2N_TAM        C_C2N_H2C3_TAM        C_HC2_HC2N_TAM         5.4321874941e+02 -1.5256716325e+01 -1.5256716325e+01  1.4012477017e+00  1.4012477017e+00  1.1770112593e+02 
+CROSS:PARS C_C2N_H2C3_TAM        C_HC2_HC2N_TAM        C_HC2_HC3_TAM          5.4348512243e+02  4.2880303206e+01  4.0450601013e+01  1.4012477017e+00  1.3900544598e+00  1.2095349073e+02 
+CROSS:PARS C_C2N_H2C3_TAM        C_HC2_HC2N_TAM        H1_C_C2_TAM            3.8035373425e+01  9.2671140097e+01  1.4266905153e+02  1.4012477017e+00  1.0844689465e+00  1.1939316894e+02 
+CROSS:PARS C_HC2_HC3_TAM         C_HC2_HC2N_TAM        H1_C_C2_TAM            4.2138025979e+01  1.0164568431e+02  1.3066153080e+02  1.3900544598e+00  1.0844689465e+00  1.1882084523e+02 
+CROSS:PARS C_C3_H2C5_TAM         C_HC2_HC3_TAM         C_HC2_HC2N_TAM         5.4756608784e+02  5.2220610455e+01  2.4250256708e+01  1.3949079019e+00  1.3900544598e+00  1.2196468321e+02 
+CROSS:PARS C_C3_H2C5_TAM         C_HC2_HC3_TAM         H0_C_C2_TAM            5.2942819805e+01  8.5010543947e+01  1.4504410316e+02  1.3949079019e+00  1.0817440227e+00  1.1803600707e+02 
+CROSS:PARS C_HC2_HC2N_TAM        C_HC2_HC3_TAM         H0_C_C2_TAM            4.7867783209e+01  1.0004280443e+02  1.2031918568e+02  1.3900544598e+00  1.0817440227e+00  1.1937183965e+02 
+CROSS:PARS C_C4_C8_TAM           C_C3_H2C5_TAM         C_HC2_HC3_TAM          2.3825252795e+02  1.9501934939e+02  4.5433485434e+01  1.5516957089e+00  1.3949079019e+00  1.2050401452e+02 
+CROSS:PARS C_HC2_HC3_TAM         C_C3_H2C5_TAM         C_HC2_HC3_TAM          6.0415742446e+02  2.3201609338e+01  2.3201609338e+01  1.3949079019e+00  1.3949079019e+00  1.1681872766e+02 
+CROSS:PARS C_HC2_HC3_BDC         C_C3_H3C2N_BDC        C_HCN_C3_BDC           3.6129564372e+02  1.1307876921e+02  2.2632486642e+02  1.3997243891e+00  1.4683464255e+00  1.2015921766e+02 
+CROSS:PARS C_HC2_HC3_BDC         C_C3_H3C2N_BDC        C_HC2_HC3_BDC          5.4038197429e+02  2.1990442345e+00  2.1990442345e+00  1.3997243891e+00  1.3997243891e+00  1.1882624602e+02 
+CROSS:PARS C_C3_H3C2N_BDC        C_HC2_HC3_BDC         H_C_C2_BDC             5.0701263432e+01  8.3178214992e+01  1.3856928745e+02  1.3997243891e+00  1.0828095236e+00  1.1783726677e+02 
+CROSS:PARS C_HC2_HC3_BDC         C_HC2_HC3_BDC         H_C_C2_BDC             4.1953652666e+01  9.6549974178e+01  1.1626824287e+02  1.3866117229e+00  1.0828095236e+00  1.2012984992e+02 
+CROSS:PARS C_C3_H3C2N_BDC        C_HC2_HC3_BDC         C_HC2_HC3_BDC          5.4848522991e+02  3.9870352815e+01  9.4885120865e+01  1.3997243891e+00  1.3866117229e+00  1.2084678656e+02 
+CROSS:PARS C_C3_H3C2N_BDC        C_HCN_C3_BDC          H_C_CN_BDC             4.6698699802e+01  7.3073986836e+01  1.5691144095e+02  1.4683464255e+00  1.0970087755e+00  1.1663242476e+02 
+CROSS:PARS C_C3_H3C2N_BDC        C_HCN_C3_BDC          N_C2_HC3_TAM           5.6913060084e+02  1.4930690513e+02  2.4857981777e+02  1.4686892964e+00  1.2793504905e+00  1.2198831250e+02 
+CROSS:PARS H_C_CN_BDC            C_HCN_C3_BDC          N_C2_HC3_TAM           2.0276664350e+02  1.4251835351e+02  2.0958462837e+02  1.0971298276e+00  1.2793504905e+00  1.2070103885e+02 
+CROSS:PARS C_HCN_C3_BDC          N_C2_HC3_TAM          C_C2N_H2C3_TAM         4.3072467024e+02  4.2363438441e+02  4.2459516900e+02  1.2790844975e+00  1.4097898674e+00  1.1834309466e+02 
+
+
+
+# Electrostatic interactions
+# ==========================
+#
+# Mathematical form:
+# E_FIXQ = q_i*q_j/r*erf(r/R)
+#
+#       with q_i = q_0i + sum(p_ij, j bonded to i)
+# 
+# The total atomic point charge is given by the sum of the 
+# pre-charge (q_0i) and the bond charge increments (p_ij).
+# The error function is included to allow the charge to be 
+# distributed according to a Gaussian distribution. By
+# putting the charge radius R to zero, the classic point
+# charge expression is obtained.
+#
+
+FIXQ:UNIT Q0 e
+FIXQ:UNIT P e
+FIXQ:UNIT R angstrom
+
+FIXQ:SCALE 1 0.0
+FIXQ:SCALE 2 0.0
+FIXQ:SCALE 3 1.0
+
+FIXQ:DIELECTRIC 1.0
+
+# Pre-charges (Q0) and charge radii (R)
+#-------------------------------------------------------------------
+# KEY     label0                 Q0                R                
+#-------------------------------------------------------------------
+FIXQ:ATOM C_C4_C8_TAM            0.0000000000e+00  1.1703000000e+00 
+FIXQ:ATOM C_C2N_H2C3_TAM         0.0000000000e+00  1.1703000000e+00 
+FIXQ:ATOM C_HC2_HC2N_TAM         0.0000000000e+00  1.1703000000e+00 
+FIXQ:ATOM C_HC2_HC3_TAM          0.0000000000e+00  1.1703000000e+00 
+FIXQ:ATOM C_C3_H2C5_TAM          0.0000000000e+00  1.1703000000e+00 
+FIXQ:ATOM H1_C_C2_TAM            0.0000000000e+00  7.3080000000e-01 
+FIXQ:ATOM H0_C_C2_TAM            0.0000000000e+00  7.3080000000e-01 
+FIXQ:ATOM N_C2_HC3_TAM           0.0000000000e+00  1.1048000000e+00 
+FIXQ:ATOM C_C3_H3C2N_BDC         0.0000000000e+00  1.1703000000e+00 
+FIXQ:ATOM C_HC2_HC3_BDC          0.0000000000e+00  1.1703000000e+00 
+FIXQ:ATOM H_C_C2_BDC             0.0000000000e+00  7.3080000000e-01 
+FIXQ:ATOM C_HCN_C3_BDC           0.0000000000e+00  1.1703000000e+00 
+FIXQ:ATOM H_C_CN_BDC             0.0000000000e+00  7.3080000000e-01 
+
+# Bond charge increments (P)
+#-----------------------------------------------------------------------
+# KEY     label0                label1                 P                
+#-----------------------------------------------------------------------
+FIXQ:BOND C_C2N_H2C3_TAM        C_HC2_HC2N_TAM         8.4354626600e-02 
+FIXQ:BOND C_HC2_HC2N_TAM        C_HC2_HC3_TAM         -2.0464472600e-02 
+FIXQ:BOND C_C3_H2C5_TAM         C_C4_C8_TAM            4.8660140000e-03 
+FIXQ:BOND C_C3_H2C5_TAM         C_HC2_HC3_TAM          2.2711431000e-02 
+FIXQ:BOND C_HC2_HC2N_TAM        H1_C_C2_TAM           -1.5274830900e-01 
+FIXQ:BOND C_HC2_HC3_TAM         H0_C_C2_TAM           -1.5462324730e-01 
+FIXQ:BOND C_C2N_H2C3_TAM        N_C2_HC3_TAM           1.5509697580e-01 
+FIXQ:BOND C_C3_H3C2N_BDC        C_HC2_HC3_BDC         -4.9595905000e-03 
+FIXQ:BOND C_HC2_HC3_BDC         C_HC2_HC3_BDC          2.6328438400e-02 
+FIXQ:BOND C_HC2_HC3_BDC         H_C_C2_BDC            -1.4418635700e-01 
+FIXQ:BOND C_C3_H3C2N_BDC        C_HCN_C3_BDC           2.0369838200e-02 
+FIXQ:BOND C_HCN_C3_BDC          H_C_CN_BDC            -6.7533648300e-02 
+FIXQ:BOND C_HCN_C3_BDC          N_C2_HC3_TAM           2.8553035460e-01 
+
+
+
+# MM3 variant of the Lennard-Jones potential
+# ==========================================
+#
+# Mathematical form:
+# E_MM3 = epsilon*(1.84e5 * exp(sigma/r) - 2.25*(sigma/r)**6)
+#
+#        with sigma    =  (sigma_i + sigma_j)/2
+#             epsilon  =  sqrt(epsilon_i * epsilon_j)
+#
+# The ONLYPAULI parameter corresponds to an undocumented
+# feature. Put it to 0 to get the original MM3 form.
+#
+
+MM3:UNIT SIGMA angstrom
+MM3:UNIT EPSILON kcalmol
+
+MM3:SCALE 1 0.0
+MM3:SCALE 2 0.0
+MM3:SCALE 3 1.0
+
+#---------------------------------------------------------------------
+# KEY    label0                 SIGMA             EPSILON          ONLYPAULI 
+#---------------------------------------------------------------------
+MM3:PARS C_C4_C8_TAM            2.0400000000e+00  2.7000000000e-02 0  
+MM3:PARS C_C2N_H2C3_TAM         1.9600000000e+00  5.6000000000e-02 0  
+MM3:PARS C_HC2_HC2N_TAM         1.9600000000e+00  5.6000000000e-02 0  
+MM3:PARS C_HC2_HC3_TAM          1.9600000000e+00  5.6000000000e-02 0  
+MM3:PARS C_C3_H2C5_TAM          1.9600000000e+00  5.6000000000e-02 0  
+MM3:PARS H1_C_C2_TAM            1.6200000000e+00  2.0000000000e-02 0  
+MM3:PARS H0_C_C2_TAM            1.6200000000e+00  2.0000000000e-02 0  
+MM3:PARS N_C2_HC3_TAM           1.9300000000e+00  4.3000000000e-02 0  
+MM3:PARS C_C3_H3C2N_BDC         1.9600000000e+00  5.6000000000e-02 0  
+MM3:PARS C_HC2_HC3_BDC          1.9600000000e+00  5.6000000000e-02 0  
+MM3:PARS H_C_C2_BDC             1.6200000000e+00  2.0000000000e-02 0  
+MM3:PARS C_HCN_C3_BDC           1.9600000000e+00  5.6000000000e-02 0  
+MM3:PARS H_C_CN_BDC             1.6200000000e+00  2.0000000000e-02 0  

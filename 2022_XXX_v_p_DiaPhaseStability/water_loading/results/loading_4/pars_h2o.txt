@@ -1,0 +1,59 @@
+# BONDMORSE
+#-----------
+BONDMORSE:UNIT E0 kjmol
+BONDMORSE:UNIT K  1/nm
+BONDMORSE:UNIT R0 A
+
+BONDMORSE:PARS      TH      TO    432.581 22.87 0.9419
+
+
+# BENDAHARM
+#----------
+BENDAHARM:UNIT  K kjmol/rad**2
+BENDAHARM:UNIT  THETA0 deg
+
+BENDAHARM:PARS        TH        TO        TH  3.6781000000e+02  1.0740000000e+02
+
+
+
+# Fixed charges
+# =============
+
+# Mathematical form: q_A = q_0A + sum'_B p_BA
+# where q0_A is the reference charge of atom A. It is mostly zero, sometimes a
+# non-zero integer. The total charge of a fragment is the sum of all reference
+# charges. The parameter p_BA is the charge transfered from B to A. Such charge
+# transfers are only carried out over bonds in the FF topology.
+# The charge on an atom is modeled as a Gaussian distribution. The spread on the
+# Gaussian is called the radius R. When the radius is set to zero, point charges
+# will be used instead of smeared charges.
+
+FIXQ:UNIT Q0 e
+FIXQ:UNIT P e
+FIXQ:UNIT R angstrom
+FIXQ:SCALE 1 0.0
+FIXQ:SCALE 2 0.0
+FIXQ:SCALE 3 1.0
+
+# Atomic parameters
+# ----------------------------------------------------
+# KEY        label  Q_0A              R_A
+# ----------------------------------------------------
+FIXQ:ATOM       TO  0.0           0.0
+FIXQ:ATOM       TH  0.5564        0.0
+FIXQ:ATOM       TM -1.1128        0.0
+
+#  - LJ:    4.0*EPSILON*((SIGMA/r)^12 - (SIGMA/r)^6)
+
+LJ:UNIT SIGMA angstrom
+LJ:UNIT EPSILON kcalmol
+LJ:SCALE 1 0.0
+LJ:SCALE 2 0.0
+LJ:SCALE 3 1.0
+
+# ---------------------------------------------
+# KEY      ffatype  SIGMA  EPSILON 
+# ---------------------------------------------
+LJ:PARS      TO     3.164400000000000   0.18520764558814762
+LJ:PARS      TH     1.000000000000000   0.00000000000000000
+LJ:PARS      TM     1.000000000000000   0.00000000000000000

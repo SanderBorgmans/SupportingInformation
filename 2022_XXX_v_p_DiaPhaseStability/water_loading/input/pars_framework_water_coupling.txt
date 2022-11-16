@@ -1,0 +1,88 @@
+# Lennard-Jones potential
+# ======================
+#
+# Mathematical form:
+# E_LJCROSS = 4*epsilon*((sigma/r)**12 - (sigma/r)**6)
+#
+LJCROSS:UNIT SIGMA A
+LJCROSS:UNIT EPSILON kcalmol
+
+LJCROSS:SCALE 1 0.0
+LJCROSS:SCALE 2 0.0
+LJCROSS:SCALE 3 1.0
+#------------------------------------------------------------------------------------------
+# KEY        label0                label1                SIGMA            EPSILON          
+#------------------------------------------------------------------------------------------
+LJCROSS:PARS TO                    C_C4_C8_TAM           3.2976254818     0.13945179377388983
+LJCROSS:PARS TO                    C_C2N_H2C3_TAM        3.2976254818     0.13945179377388983
+LJCROSS:PARS TO                    C_HC2_HC2N_TAM        3.2976254818     0.13945179377388983
+LJCROSS:PARS TO                    C_HC2_HC3_TAM         3.2976254818     0.13945179377388983
+LJCROSS:PARS TO                    C_C3_H2C5_TAM         3.2976254818     0.13945179377388983
+LJCROSS:PARS TO                    H1_C_C2_TAM           2.8677668503     0.09027256729415917
+LJCROSS:PARS TO                    H0_C_C2_TAM           2.8677668503     0.09027256729415917
+LJCROSS:PARS TO                    N_C2_HC3_TAM          3.2125446542000002 0.11304568786814553
+LJCROSS:PARS TO                    C_C3_H3C2N_BDC        3.2976254818     0.13945179377388983
+LJCROSS:PARS TO                    C_HC2_HC3_BDC         3.2976254818     0.13945179377388983
+LJCROSS:PARS TO                    H_C_C2_BDC            2.8677668503     0.09027256729415917
+LJCROSS:PARS TO                    C_HCN_C3_BDC          3.2976254818     0.13945179377388983
+LJCROSS:PARS TO                    H_C_CN_BDC            2.8677668503     0.09027256729415917
+
+
+# Lennard-Jones potential
+# ======================
+#
+# Mathematical form:
+# E_LJ = 4*epsilon*((sigma/r)**12 - (sigma/r)**6)
+#
+#        with sigma    =  (sigma_i + sigma_j)/2
+#             epsilon  =  sqrt(epsilon_i * epsilon_j)
+#
+
+LJ:UNIT SIGMA angstrom
+LJ:UNIT EPSILON kcalmol
+LJ:SCALE 1 0.0
+LJ:SCALE 2 0.0
+LJ:SCALE 3 1.0
+
+# ---------------------------------------------
+# KEY      ffatype  SIGMA  EPSILON 
+# ---------------------------------------------
+LJ:PARS C_C4_C8_TAM            1.0000000000e+00  0.0000000000e+00
+LJ:PARS C_C2N_H2C3_TAM         1.0000000000e+00  0.0000000000e+00
+LJ:PARS C_HC2_HC2N_TAM         1.0000000000e+00  0.0000000000e+00
+LJ:PARS C_HC2_HC3_TAM          1.0000000000e+00  0.0000000000e+00
+LJ:PARS C_C3_H2C5_TAM          1.0000000000e+00  0.0000000000e+00  
+LJ:PARS H1_C_C2_TAM            1.0000000000e+00  0.0000000000e+00
+LJ:PARS H0_C_C2_TAM            1.0000000000e+00  0.0000000000e+00
+LJ:PARS N_C2_HC3_TAM           1.0000000000e+00  0.0000000000e+00
+LJ:PARS C_C3_H3C2N_BDC         1.0000000000e+00  0.0000000000e+00
+LJ:PARS C_HC2_HC3_BDC          1.0000000000e+00  0.0000000000e+00
+LJ:PARS H_C_C2_BDC             1.0000000000e+00  0.0000000000e+00
+LJ:PARS C_HCN_C3_BDC           1.0000000000e+00  0.0000000000e+00
+LJ:PARS H_C_CN_BDC             1.0000000000e+00  0.0000000000e+00
+
+# MM3CAP variant of the Lennard-Jones potential
+# ==========================================
+#
+# Mathematical form:
+# E_MM3CAP = epsilon*(1.84e5 * exp(sigma/r) - 2.25*(sigma/r)**6)
+#
+#        with sigma    =  (sigma_i + sigma_j)/2
+#             epsilon  =  sqrt(epsilon_i * epsilon_j)
+#
+# The ONLYPAULI parameter corresponds to an undocumented
+# feature. Put it to 0 to get the original MM3CAP form.
+#
+
+MM3CAP:UNIT SIGMA angstrom
+MM3CAP:UNIT EPSILON kcalmol
+
+MM3CAP:SCALE 1 0.0
+MM3CAP:SCALE 2 0.0
+MM3CAP:SCALE 3 1.0
+MM3CAP:PARS TO            1.0000000000e+00  0.0000000000e+00 0  
+MM3CAP:PARS TM            1.0000000000e+00  0.0000000000e+00 0 
+MM3CAP:PARS TH            1.0000000000e+00  0.0000000000e+00 0 
+
+# Still needs to be adapted
+

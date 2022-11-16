@@ -22,10 +22,10 @@ The following software packages are used to perform all relevant calculations.
 - QuickFF (version 2.2.4)
 - TAMkin (version 1.2.6)
 - Yaff (version 1.6.0), with adapted logger functionality, see https://github.com/SanderBorgmans/yaff/tree/logger_overhaul
-- Ndfsampler (version 0.0.1), https://github.com/SanderBorgmans/ndfsampler
+- Ndfsampler (version 0.0.1, legacy branch), https://github.com/SanderBorgmans/ndfsampler/tree/legacy_diaphase
 - Mepsa (version 1.4), http://bioweb.cbm.uam.es/software/MEPSA/
 - ThermoLIB (version 1.4.1), with updated wham_2d_scf functionality, see https://github.ugent.be/lvduyfhu/ThermoLIB/tree/boltmanfactor_sb/thermolib
-- Dask (version 2021.03.0)
+
 
 # Workflow
 
@@ -38,6 +38,10 @@ The workflow can be divided into four main parts:
 	* validation
 * Enhanced sampling simulations
 * Minimal free energy path analysis
+
+complemented by two additional parts:
+* CV measurement - for the calculation and connection of the collective variables to system parameters
+* Water loading simulations - for the calculations of the FES for water filled frameworks
 
 Since the script files are identical for each material, they are consistently stored in a separate scripts folder. Then, for each material, a distinction is made between input and output files, with a subdirectory for each degree of interpenetration and temperature combination, as shown in the directory structure below:
 
@@ -117,6 +121,18 @@ Since the script files are identical for each material, they are consistently st
                 NPN-3/
                     ...
                         ...
+
+		CV_measurement
+			link_CV_pore/
+			generate_CV/
+			AuthorYear/
+
+		water_loading/
+			input/
+			scripts/
+			results/
+				loading_XX/
+				...
 
 The following subsections give the details of each of the parts (and subparts) in the workflow.
 
@@ -439,7 +455,7 @@ All the `.yml` files contain user readable information of the different (meta)st
 The user-prompted phase identification consists of an image of the minima identified by the MEPSA code superimposed on the FES image, where the minima have been clustered, and the used has to identify which of the clusters corresponds to the 'SQ', 'sq', and 'rect' phases.
 
 
-# Addendum
+# Complementary 1 - CV measurement
 An additional folder `CV_measurement` was added in accordance with the reported collective variables of Table 1 in the Supporting Information, with a subfolder per paper. These folders contain all the reference structures from literature and the scripts to calculate the 'experimental' values for our collective variables.
 
 **input**
@@ -449,3 +465,17 @@ An additional folder `CV_measurement` was added in accordance with the reported 
 `python measure_CV.py example.chk`
 
 As output, the relevant information is printed to the terminal. The conversion of the cif files to chk files was performed with CON3F. As the collective variable requires atom types to be specified, `define_atomtypes_nohess.py` scripts are present per material which determine and store the atom types in the chk file. For the NPN COFs an additional script `adapt_chk.py` is provided, as there certain atoms needed to be replaced by their periodic equivalent for the CV function to work. The lattice vectors of each of these materials can be readily accessed from the cif or chk files.
+
+Aside from the calculation of the CV for each reference structure, scripts were provided to perform a specific umbrella sampling simulation to drive to system towards a specific CV combination
+
+**input**
+`custom_cv.py`, `init.chk`, `pars.txt`
+
+**command line**
+python simulate.py cv1 cv2 kappa1 kappa2
+
+Finally, a script was provided to calculate the system parameters (cell parameters, pore volume, CVs) for a given trajectory file, to provide an overview of how these parameters relate to each other.
+
+# Complementary 2 - water loading
+To replicate the experimental phase behaviour of COF-300(7), additional simulations were performed with a TIP-4P based force field. To this end, the relevant force field files were taken from the supporting information of doi:10.1038/s41563-021-00977-6. The US simulations are performed similar to the other US simulations, but the force field is replaced by a GhostForceField, takinjg ghost atoms into account for an adequate representation of the water molecules. A script `insert_molecules.py` was provided to generate initial water filled structures.
+

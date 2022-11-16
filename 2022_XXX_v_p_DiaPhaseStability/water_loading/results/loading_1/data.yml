@@ -1,0 +1,31 @@
+CONFINEMENT_THR: 0.1
+KAPPA_GROWTH_FACTOR: 2.0
+MAX_GRID_REFINEMENT_IT: 2.0
+MAX_KAPPA: 150
+OVERLAP_THR: 0.25
+edges:
+  max:
+  - 22
+  - 22
+  min:
+  - 0
+  - 0
+h5steps: 10
+kappas:
+- 10
+- 10
+mdsteps: 30000
+mode: application
+plot: true
+press: 3.3989315827578425e-09
+runup: 10000
+spacings:
+- 1
+- 1
+temp: 300.0
+timecon_baro: 41341.37333664682
+timecon_thermo: 4134.137333664683
+timestep: 20.670686668323413
+units:
+- angstrom
+- angstrom
