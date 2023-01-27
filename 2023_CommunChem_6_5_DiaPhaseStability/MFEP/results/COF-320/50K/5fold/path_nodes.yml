@@ -3,16 +3,16 @@ SQ:
   cv2: 21.125
   energy: 0.0
   grid_index: 8484
-  node_index: 7
+  node_index: 22
 hrect:
   cv1: 5.375
-  cv2: 11.375
-  energy: 80.98475400000001
-  grid_index: 2145
+  cv2: 11.125
+  energy: 70.6795055
+  grid_index: 2144
   node_index: 0
 vrect:
-  cv1: 11.375
+  cv1: 11.125
   cv2: 5.375
-  energy: 80.98475400000001
-  grid_index: 4521
-  node_index: 5
+  energy: 70.6795055
+  grid_index: 4421
+  node_index: 9

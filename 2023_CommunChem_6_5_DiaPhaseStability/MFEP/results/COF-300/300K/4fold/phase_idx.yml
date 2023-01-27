@@ -1,4 +1,6 @@
-SQ: 5
-hrect: 0
-sq: 1
-vrect: 3
+eps: 1.75
+phases:
+  SQ: 8
+  hrect: 1
+  sq: null
+  vrect: 5
