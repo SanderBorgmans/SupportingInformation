@@ -1,0 +1,31 @@
+CONFINEMENT_THR: 0.33
+CONSISTENCY_THR: 0.96
+CONVERGENCE_THR: 0.93
+HISTOGRAM_BIN_WIDTHS:
+- 0.01
+JS_THR: 0.05
+KAPPA_GROWTH_FACTOR: 2
+MAX_KAPPA: 20000.0
+MAX_LAYERS: 1
+OVERLAP_THR: 0.33
+cv_units:
+- '1'
+edges:
+  max:
+  - 0.85
+  min:
+  - -0.85
+fes_unit: kjmol
+h5steps: 10
+kappas:
+- 1000
+mdsteps: 200000
+mode: application
+plot: false
+report_consistency: true
+runup: 1000
+spacings:
+- 0.05
+temp: 873.0
+timecon_thermo: 4134.137333664683
+timestep: 20.670686668323413
